@@ -118,56 +118,66 @@ def link(ax, pts, col=None, head=True, lw=1.25):
     if len(pts) > 2: ax.plot(xs[:-1], ys[:-1], color=col, lw=lw, solid_capstyle="round", solid_joinstyle="round", zorder=2)
     ax.add_patch(FancyArrowPatch(pts[-2], pts[-1], arrowstyle="-|>" if head else "-", mutation_scale=9, lw=lw, color=col, shrinkA=0, shrinkB=0, zorder=2))
 
+def card(ax, x, y, w, h, title, sub="", col=None, accent="left", filled=False, fs=7.6, sfs=6.5, r=1.4):
+    """Flow-chart card: white with a thin outline and one accent bar, or filled for the two key nodes."""
+    col = col or PET; ec = col if filled else "#9A97A0"; tc = "#FFFFFF" if filled else F.INK; sc = "#FFFFFF" if filled else F.INK2
+    ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle=f"round,pad=0,rounding_size={r}", fc=col if filled else WHITE, ec=ec, lw=0.9, zorder=3))
+    if not filled and accent == "left": ax.add_patch(FancyBboxPatch((x, y), 2.2, h, boxstyle=f"round,pad=0,rounding_size={min(r, 1.0)}", fc=col, ec="none", zorder=4))
+    if not filled and accent == "top": ax.add_patch(FancyBboxPatch((x, y + h - 2.0), w, 2.0, boxstyle=f"round,pad=0,rounding_size={min(r, 0.9)}", fc=col, ec="none", zorder=4))
+    cx = x + w / 2 + (1.1 if (accent == "left" and not filled) else 0); top = 0.66 if accent != "top" or filled else 0.60
+    if sub:
+        ax.text(cx, y + h * top, title, ha="center", va="center", fontsize=fs, color=tc, zorder=5); ax.text(cx, y + h * 0.28, sub, ha="center", va="center", fontsize=sfs, color=sc, zorder=5, linespacing=1.1)
+    else: ax.text(cx, y + h / 2 - (0.6 if accent == "top" and not filled else 0), title, ha="center", va="center", fontsize=fs, color=tc, zorder=5, linespacing=1.12)
+
 def fig01():
     fig = F.new_figure(180, 150); ax = fig.add_subplot(111); W, H = 180, 150; canvas(ax, W, H); ax.set_xlim(-1, 181.5)
+    NEU = "#6E6B76"; SOFT = F.tint(PET, 0.80)
     # ---- stage rail ----
     stages = [(138.5, "Data"), (114.5, "Variable\nordering"), (91.5, "Validation\ndesign"), (63.0, "Estimation"), (35.0, "Audit"), (9.5, "Stability")]
-    ax.plot([6, 6], [stages[-1][0], stages[0][0]], color=F.RULE, lw=2.2, zorder=1)
+    ax.plot([6, 6], [stages[-1][0], stages[0][0]], color=F.RULE, lw=1.8, zorder=1)
     for i, (yc, lab) in enumerate(stages):
-        ax.scatter(6, yc, s=190, color=F.INK, zorder=3); ax.text(6, yc, str(i + 1), ha="center", va="center", fontsize=8, color="#FFFFFF", zorder=4)
+        ax.scatter(6, yc, s=170, color=WHITE, ec=PET, lw=1.4, zorder=3); ax.text(6, yc, str(i + 1), ha="center", va="center", fontsize=7.8, color=PET, zorder=4)
         ax.text(11.5, yc, lab, ha="left", va="center", fontsize=7.2, color=F.INK, linespacing=1.1)
     X0 = 32
     # ---- 1 data ----
     ax.text(X0, 148.6, "National police crash files (BAAC), 2019–2025", ha="left", va="center", fontsize=6.8, color=F.INK2)
-    for k, nm in enumerate(["Characteristics", "Locations", "Vehicles", "Users"]):
-        node(ax, X0 + (k % 2) * 27.5, 139.3 - (k // 2) * 8.6, 26, 7.2, nm, col=PET, fs=6.9, r=1.2)
+    for k_, nm_ in enumerate(["Characteristics", "Locations", "Vehicles", "Users"]):
+        card(ax, X0 + (k_ % 2) * 27.5, 139.3 - (k_ // 2) * 8.6, 26, 7.2, nm_, col=NEU, fs=6.9, r=1.1)
     link(ax, [(86.5, 138.5), (92.4, 138.5)])
-    node(ax, 93, 131.5, 34, 14, "Linked record", "one row per rider", col=TEAL)
+    card(ax, 93, 131.5, 34, 14, "Linked record", "one row per rider", col=PET)
     link(ax, [(127.6, 138.5), (133.4, 138.5)])
-    node(ax, 134, 131.5, 46, 14, "Analysis sample", "46,920 riders · 44,817 crashes", col=VER)
+    card(ax, 134, 131.5, 46, 14, "Analysis sample", "46,920 riders · 44,817 crashes", col=PET, filled=True)
     link(ax, [(157, 131.0), (157, 126.2), (46, 126.2), (46, 122.2)])
     # ---- 2 variable ordering ----
     tiers = [("Tier 0", "Time and place", PET), ("Tier 1", "Rider and vehicle", TEAL), ("Tier 2", "Road and conditions", SAF), ("Tier 3", "Crash configuration", PUR)]
     x = X0
     for hd, sb, col in tiers:
-        node(ax, x, 109, 28, 12.6, hd, sb, col=col, sfs=6.3); link(ax, [(x + 28.4, 115.3), (x + 31.6, 115.3)]); x += 32
-    node(ax, x, 109, W - x, 12.6, "Outcome", "killed or hospitalized", col=VER, sfs=6.2)
+        card(ax, x, 109, 28, 12.6, hd, sb, col=col, accent="top", sfs=6.3); link(ax, [(x + 28.4, 115.3), (x + 31.6, 115.3)]); x += 32
+    card(ax, x, 109, W - x, 12.6, "Outcome", "killed or hospitalized", col=VER, accent="top", sfs=6.1)
     ax.plot([X0, X0 + 124], [106.2, 106.2], color=F.INK2, lw=0.9); ax.plot([X0, X0], [106.2, 107.4], color=F.INK2, lw=0.9); ax.plot([X0 + 124, X0 + 124], [106.2, 107.4], color=F.INK2, lw=0.9)
     ax.text(X0 + 62, 103.6, "Each factor is adjusted only for variables in the same or earlier tiers", ha="center", va="center", fontsize=6.6, color=F.INK2)
     link(ax, [(106, 101.6), (106, 96.4)])
-    # ---- 3 validation design ----
-    node(ax, X0, 87.5, 19, 8.4, "2019", col=F.MUTED, fs=7.0, r=1.0); node(ax, X0 + 20.5, 87.5, 80, 8.4, "2020–2023  ·  development  ·  29,208 riders", col=PET, fs=7.0, r=1.0)
-    node(ax, X0 + 102, 87.5, 46, 8.4, "2024–2025  ·  locked test", col=VER, fs=7.0, r=1.0)
-    for xc, t_ in ((X0 + 9.5, "sensitivity"), (X0 + 60.5, "cross-validation grouped by crash"), (X0 + 125, "17,712 riders \u00b7 evaluated once")): ax.text(xc, 84.9, t_, ha="center", va="center", fontsize=6.4, color=F.INK2)
+    # ---- 3 validation design (one hue, three depths) ----
+    for x_, w_, t_, fc_, tc_ in ((X0, 19, "2019", "#E3E1DC", F.INK), (X0 + 20.5, 80, "2020–2023  ·  development  ·  29,208 riders", SOFT, F.INK), (X0 + 102, 46, "2024–2025  ·  locked test", PET, "#FFFFFF")):
+        ax.add_patch(FancyBboxPatch((x_, 87.5), w_, 8.4, boxstyle="round,pad=0,rounding_size=1.0", fc=fc_, ec="none", zorder=3)); ax.text(x_ + w_ / 2, 91.7, t_, ha="center", va="center", fontsize=7.0, color=tc_, zorder=4)
+    for xc, t_ in ((X0 + 9.5, "sensitivity"), (X0 + 60.5, "cross-validation grouped by crash"), (X0 + 125, "17,712 riders · evaluated once")): ax.text(xc, 84.9, t_, ha="center", va="center", fontsize=6.4, color=F.INK2)
     link(ax, [(106, 82.6), (106, 78.4)], head=False); ax.plot([56, 157], [78.4, 78.4], color=F.INK2, lw=1.25, solid_capstyle="round", zorder=2)
     link(ax, [(56, 78.4), (56, 73.4)]); link(ax, [(157, 78.4), (157, 73.4)])
     # ---- 4 estimation: predictive branch and causal branch ----
-    node(ax, X0, 59, 48, 14, "Prediction", "gradient boosting · logistic regression", col=PET, sfs=6.2)
+    card(ax, X0, 59, 48, 14, "Prediction", "gradient boosting · logistic regression", col=PET, sfs=6.2)
     link(ax, [(80.4, 66), (85.6, 66)])
-    node(ax, 86, 59, 40, 14, "Explanation", "TreeSHAP attributions", col=TEAL)
-    node(ax, 134, 59, 46, 14, "Causal estimation", "double machine learning", col=SAF)
-    node(ax, X0, 51.2, 48, 5.6, "nine validation protocols", col=PET, filled=False, fs=6.4, r=1.0); node(ax, 86, 51.2, 40, 5.6, "stability over 25 refits", col=TEAL, filled=False, fs=6.4, r=1.0)
-    node(ax, 134, 51.2, 46, 5.6, "13 pre-specified factors", col=SAF, filled=False, fs=6.4, r=1.0)
-    for xc in (56, 106, 157): ax.plot([xc, xc], [56.8, 59], color=F.INK2, lw=0.9, zorder=2)
-    link(ax, [(106, 51.0), (106, 43.0)]); link(ax, [(157, 51.0), (157, 35.0), (149.6, 35.0)])
-    # ---- 5 audit ----
-    node(ax, 63, 28, 86, 14, "Audit of SHAP against double machine learning", "agreement in sign · magnitude · rank", col=VER, sfs=6.6)
+    card(ax, 86, 59, 40, 14, "Explanation", "TreeSHAP attributions", col=TEAL)
+    card(ax, 134, 59, 46, 14, "Causal estimation", "double machine learning", col=SAF)
+    for xc, t_ in ((56, "nine validation protocols"), (106, "stability over 25 refits"), (157, "13 pre-specified factors")): ax.text(xc, 55.4, t_, ha="center", va="center", fontsize=6.4, color=F.INK2)
+    link(ax, [(106, 52.6), (106, 43.0)]); link(ax, [(157, 52.6), (157, 35.0), (149.6, 35.0)])
+    # ---- 5 audit (the key node) ----
+    card(ax, 63, 28, 86, 14, "Audit of SHAP against double machine learning", "agreement in sign · magnitude · rank", col=VER, filled=True, sfs=6.6)
     link(ax, [(106, 27.6), (106, 21.6)], head=False); ax.plot([55, 157], [21.6, 21.6], color=F.INK2, lw=1.25, solid_capstyle="round", zorder=2)
     for xc in (55, 106, 157): link(ax, [(xc, 21.6), (xc, 17.0)])
     # ---- 6 stability of the findings ----
-    node(ax, X0, 3, 46, 13.6, "Sources of disagreement", "adjustment set · predictive model", col=TEAL, sfs=6.2)
-    node(ax, 83, 3, 46, 13.6, "Heterogeneity", "group average effects", col=PUR)
-    node(ax, 134, 3, 46, 13.6, "Robustness", "12 checks · unobserved confounding", col=ROSE, sfs=6.2)
+    card(ax, X0, 3, 46, 13.6, "Sources of disagreement", "adjustment set · predictive model", col=NEU, sfs=6.2)
+    card(ax, 83, 3, 46, 13.6, "Heterogeneity", "group average effects", col=NEU)
+    card(ax, 134, 3, 46, 13.6, "Robustness", "12 checks · unobserved confounding", col=NEU, sfs=6.2)
     finish(fig, "Fig01_methodological_framework")
 
 def fig02():
@@ -858,6 +868,97 @@ def fig_geography():
     finish(fig, "Fig03_geography")
 
 
-FIGS = {"fig01": fig01, "fig02": fig02, "fig03": fig_geography, "fig04": fig_recording, "fig05": fig_performance, "fig06": fig_shap, "fig07": fig_audit, "fig08": fig_sources, "fig09": fig_groups, "fig10": fig_robustness}
+def graphical_abstract():
+    """Graphical abstract, 330 x 132 mm (ratio 2.5:1): data and geography, method, six findings, four messages."""
+    T = audit(); Pd = T[T["group"] == "all"].set_index("factor"); A = riders(); M = A[A["year"] >= 2020]; nm = M["mode"].value_counts(); ks = M.groupby("mode")["ksi"].mean() * 100
+    L = pd.read_csv(os.path.join(args.res, "leakage_protocols.csv")); R5 = pd.read_csv(os.path.join(args.res, "robustness_r5_corrected.csv")); geo, k = _geo()
+    W, H = 330, 132; fig = plt.figure(figsize=(F.mm(W), F.mm(H))); fig._panels = []
+    bg = fig.add_axes([0, 0, 1, 1]); canvas(bg, W, H)
+    def sub(x, y, w, h):
+        a = fig.add_axes([x / W, y / H, w / W, h / H]); a.tick_params(labelsize=6.8, length=2, pad=1.5); return a
+    def head(x, y, t): bg.text(x, y, t, ha="left", va="center", fontsize=8.4, color=F.INK2)
+    def ttl(x, y, t): bg.text(x, y, t, ha="left", va="center", fontsize=8.6, color=F.INK)
+    # ---- header ----
+    bg.text(6, 124.6, "Do SHAP attributions agree with causal estimates?", ha="left", va="center", fontsize=14.5, color=F.INK)
+    bg.text(6, 116.6, "Injury severity of e-scooter, e-bike, and bicycle riders in police-reported crashes, France, 2020–2025", ha="left", va="center", fontsize=9.0, color=F.INK2)
+    for i, t_ in enumerate([f"{len(M):,} riders", f"{M['Num_Acc'].nunique():,} crashes", "96 départements", "13 pre-specified factors"]):
+        node(bg, 196 + i * 32.6, 118.4, 31, 8.6, t_, col=F.INK2, filled=False, fs=7.8, r=1.2)
+    bg.plot([6, 324], [112.2, 112.2], color=F.RULE, lw=1.0)
+    # ---- 1 data and geography ----
+    head(6, 107.6, "DATA: RECORDED SEVERITY VARIES BY PLACE")
+    WARM = LinearSegmentedColormap.from_list("warm_deep", ["#FFF4E0", "#F2C36B", "#E89A2B", "#C8321A", "#6E1423"]); g = M.groupby("dep")["ksi"].agg(["mean", "size"]); val = (g["mean"] * 100).where(g["size"] >= 50)
+    ax = sub(3, 44, 46, 60); choropleth(ax, geo, k, lambda c: "#D9D6D0" if (c not in val.index or pd.isna(val[c])) else WARM(min(max((val[c] - 5) / 55, 0), 1)), lw=0.25)
+    cb = sub(9, 40.6, 30, 1.8); cb.imshow(np.linspace(0, 1, 100)[None, :], cmap=WARM, aspect="auto"); cb.set_yticks([]); cb.set_xticks([0, 99], ["5%", "60%"]); cb.tick_params(length=0, labelsize=6.6, pad=1); [sp.set_visible(False) for sp in cb.spines.values()]
+    bg.text(24, 35.6, "killed or hospitalized", ha="center", va="center", fontsize=6.8, color=F.INK2)
+    bg.text(24, 31.6, f"Paris {val['75']:.1f}%  ·  highest {val.max():.1f}%", ha="center", va="center", fontsize=6.8, color=F.INK)
+    for i, m in enumerate(MODES):
+        node(bg, 50, 89 - i * 20.5, 26, 14.5, MODE_LAB[m], f"{int(nm[m]):,} riders", col=MODE_COL[m], fs=8.6, sfs=7.0, r=1.4)
+        bg.text(63, 86.5 - i * 20.5, f"{ks[m]:.1f}% severe, unadjusted", ha="center", va="center", fontsize=6.0, color=F.INK2)
+    # ---- 2 method ----
+    head(84, 107.6, "METHOD")
+    node(bg, 84, 88, 32, 15.5, "Prediction", "gradient boosting", col=PET, fs=9.4, sfs=7.4); node(bg, 120, 88, 32, 15.5, "SHAP", "attributions", col=TEAL, fs=9.4, sfs=7.4)
+    bg.text(118, 84.6, "developed on 2020–2023, tested once on 2024–2025", ha="center", va="center", fontsize=6.6, color=F.INK2)
+    node(bg, 84, 65, 68, 14.5, "Causal estimation", "double machine learning", col=SAF, fs=9.4, sfs=7.4)
+    bg.text(118, 61.6, "adjustment sets fixed by the temporal order of variables", ha="center", va="center", fontsize=6.6, color=F.INK2)
+    node(bg, 84, 40, 68, 16, "Audit", "direction · magnitude · rank · sources", col=VER, fs=9.8, sfs=7.4)
+    bg.text(118, 36.4, "12 robustness checks, placebo, sensitivity analysis", ha="center", va="center", fontsize=6.6, color=F.INK2)
+    link(bg, [(76.6, 72.2), (83.4, 72.2)], lw=1.4); link(bg, [(116.4, 95.7), (119.6, 95.7)], lw=1.4)
+    bg.plot([156.3, 156.3], [95.7, 51.5], color=F.INK2, lw=1.4, zorder=2); bg.plot([152.4, 156.3], [95.7, 95.7], color=F.INK2, lw=1.4, zorder=2); bg.plot([152.4, 156.3], [72.2, 72.2], color=F.INK2, lw=1.4, zorder=2)
+    link(bg, [(156.3, 51.5), (152.6, 51.5)], lw=1.4); link(bg, [(152.4, 44.5), (163.6, 44.5)], lw=1.4)
+    # ---- 3 findings: six small charts ----
+    head(166, 107.6, "FINDINGS")
+    CX = [166, 221, 276]; Y1, H1, Y2, H2 = 76.5, 22.5, 36.5, 23.5
+    # (1) SHAP against double ML
+    ttl(CX[0], 102.6, "1  Same direction, smaller size"); ax = sub(CX[0] + 8, Y1, 40, H1); lim = (-9, 23); ax.plot(lim, lim, color=F.INK2, lw=0.8, ls=(0, (4, 3)))
+    sg = T[T["q_bh"] < 0.05]; b = np.polyfit(sg["dml"], sg["shap_contrast_prob"], 1); xs = np.array([-6, 21]); ax.plot(xs, b[0] * xs + b[1] * 100, color=F.INK, lw=1.3)
+    ax.scatter(T["dml"] * 100, T["shap_contrast_prob"] * 100, s=13, color=[TIER_COL[FTIER[f]] for f in T["factor"]], ec=WHITE, lw=0.5, zorder=3)
+    ax.set_xlim(*lim); ax.set_ylim(-9, 23); ax.set_xticks([0, 10, 20]); ax.set_yticks([0, 10, 20]); ax.set_xlabel("Causal estimate (points)", fontsize=6.8, labelpad=0.5); ax.set_ylabel("SHAP (points)", fontsize=6.8, labelpad=0.5); F.ygrid(ax, "both")
+    ax.text(0.04, 0.95, "17 of 17 effects\nagree in sign", transform=ax.transAxes, ha="left", va="top", fontsize=6.6, color=F.INK, linespacing=1.1); ax.text(0.97, 0.05, f"slope {b[0]:.2f}", transform=ax.transAxes, ha="right", va="bottom", fontsize=6.8)
+    # (2) attenuation by factor
+    ttl(CX[1], 102.6, "2  SHAP understates the effect"); S9 = Pd[(Pd["q_bh"] < 0.05) & Pd.index.isin(ORDER)].copy(); S9["ratio"] = S9["shap_contrast_prob"].abs() / S9["dml"].abs(); S9 = S9.sort_values("ratio")
+    ax = sub(CX[1] + 17, Y1, 31, H1); yy = np.arange(len(S9)); ax.barh(yy, S9["ratio"], height=0.66, color=[TIER_COL[FTIER[f]] for f in S9.index], zorder=2); ax.axvline(1, color=F.INK, lw=1.2)
+    for y_, v_ in zip(yy, S9["ratio"]): ax.text(v_ - 0.02 if v_ > 0.5 else v_ + 0.02, y_, f"{v_:.2f}", va="center", ha="right" if v_ > 0.5 else "left", fontsize=5.6, color="#FFFFFF" if v_ > 0.5 else F.INK, zorder=4)
+    ax.set_yticks(yy, [SHORT[f] for f in S9.index], fontsize=6.0); ax.tick_params(axis="y", length=0); ax.set_xlim(0, 1.22); ax.set_xticks([0, 0.5, 1.0]); ax.set_ylim(-0.6, len(S9) - 0.4); ax.spines["left"].set_visible(False)
+    ax.set_xlabel("SHAP as a fraction of the causal estimate", fontsize=6.8, labelpad=0.5)
+    # (3) validation shortcuts
+    ttl(CX[2], 102.6, "3  Shortcuts inflate accuracy"); ax = sub(CX[2] + 20, Y1, 28, H1); vv = [L.loc[5, "roc_auc"], L.loc[0, "roc_auc"], L.loc[2, "roc_auc"]]; yy = [2, 1, 0]
+    ax.barh(yy, [x - 0.78 for x in vv], left=0.78, height=0.6, color=[VER, PET, SAF], zorder=2)
+    for y_, v_ in zip(yy, vv): ax.text(v_ + 0.003, y_, f"{v_:.3f}", va="center", ha="left", fontsize=6.8, color=F.INK)
+    ax.set_yticks(yy, ["Tested on\nlater years", "Random\nsplit", "Oversampling\nbefore split"], fontsize=6.4); ax.tick_params(axis="y", length=0); ax.set_xlim(0.78, 0.895); ax.set_xticks([0.80, 0.85]); ax.set_ylim(-0.6, 2.6); ax.spines["left"].set_visible(False)
+    ax.set_xlabel("ROC AUC of one fixed model", fontsize=6.8, labelpad=0.5)
+    # (4) e-scooter against bicycle by recording context
+    ttl(CX[0], 63.8, "4  E-scooter advantage vanishes"); ax = sub(CX[0] + 19, Y2, 29, H2); ax.axvline(0, color=F.INK2, lw=0.8)
+    ctx = [("All areas", Pd.loc["A1", "raw_diff"], Pd.loc["A1", "dml"], Pd.loc["A1", "dml_lo"], Pd.loc["A1", "dml_hi"]), ("Early-recording\nareas", R5.iloc[0]["raw_diff"], R5.iloc[0]["theta"], R5.iloc[0]["lo"], R5.iloc[0]["hi"]),
+           ("Other areas", R5.iloc[1]["raw_diff"], R5.iloc[1]["theta"], R5.iloc[1]["lo"], R5.iloc[1]["hi"])]
+    for y_, (lab, raw, th, lo, hi) in zip([2, 1, 0], ctx):
+        ax.annotate("", (th * 100, y_), (raw * 100, y_), arrowprops=dict(arrowstyle="-|>", color="#8F8B83", lw=1.0, mutation_scale=6, shrinkA=3, shrinkB=3.5), zorder=1)
+        ax.plot([lo * 100, hi * 100], [y_, y_], color=VER, lw=1.8, zorder=2); ax.scatter(th * 100, y_, s=20, color=VER, ec=WHITE, lw=0.6, zorder=4); ax.scatter(raw * 100, y_, s=16, marker="D", fc=WHITE, ec=F.INK2, lw=0.9, zorder=4)
+        ax.text(hi * 100 + 0.8, y_, sgn(th * 100), ha="left", va="center", fontsize=6.6, color=VER); ax.text(raw * 100, y_ + 0.3, sgn(raw * 100), ha="center", va="bottom", fontsize=6.2, color=F.INK2)
+    ax.set_yticks([2, 1, 0], [c[0] for c in ctx], fontsize=6.4); ax.tick_params(axis="y", length=0); ax.set_xlim(-17, 10); ax.set_xticks([-10, 0]); ax.set_ylim(-0.6, 2.75); ax.spines["left"].set_visible(False)
+    ax.set_xlabel("E-scooter minus bicycle (points)", fontsize=6.8, labelpad=0.5)
+    bg.text(CX[0] + 0.5, 60.2, "◇ unadjusted   ● adjusted", ha="left", va="center", fontsize=5.8, color=F.INK2)
+    # (5) adjusted effects
+    ttl(CX[1], 63.8, "5  What raises or lowers severity"); E = Pd.loc[[f for f in ORDER if Pd.loc[f, "q_bh"] < 0.05]].sort_values("dml"); ax = sub(CX[1] + 17, Y2, 31, H2); yy = np.arange(len(E)); ax.axvline(0, color=F.INK2, lw=0.8)
+    ax.barh(yy, E["dml"] * 100, height=0.66, color=[VER if x > 0 else PET for x in E["dml"]], zorder=2); ax.hlines(yy, E["dml_lo"] * 100, E["dml_hi"] * 100, color=F.INK, lw=0.8, zorder=3)
+    for y_, (f, r_) in zip(yy, E.iterrows()): ax.text(max(r_["dml_hi"] * 100, 0) + 0.8, y_, sgn(r_["dml"] * 100), va="center", ha="left", fontsize=5.6, color=F.INK)
+    ax.set_yticks(yy, [SHORT[f] for f in E.index], fontsize=6.0); ax.tick_params(axis="y", length=0); ax.set_xlim(-8, 29); ax.set_xticks([0, 10, 20]); ax.set_ylim(-0.6, len(E) - 0.4); ax.spines["left"].set_visible(False)
+    ax.set_xlabel("Adjusted effect (points, 95% CI)", fontsize=6.8, labelpad=0.5)
+    # (6) aligned adjustment sets
+    ttl(CX[2], 63.8, "6  Aligned adjustment closes the gap"); P12 = Pd.loc[ORDER]; b1 = np.polyfit(P12["dml"], P12["shap_contrast_prob"], 1)[0]; b2 = np.polyfit(P12["dml_allc"], P12["shap_contrast_prob"], 1)[0]
+    ax = sub(CX[2] + 20, Y2, 28, H2); ax.barh([1, 0], [b1, b2], height=0.56, color=[SAF, TEAL], zorder=2); ax.axvline(1, color=F.INK, lw=1.2)
+    for y_, v_ in zip([1, 0], [b1, b2]): ax.text(v_ - 0.03, y_, f"{v_:.2f}", va="center", ha="right", fontsize=7.4, color="#FFFFFF")
+    ax.set_yticks([1, 0], ["Pre-specified\nadjustment", "Same variables\nas the model"], fontsize=6.4); ax.tick_params(axis="y", length=0); ax.set_xlim(0, 1.12); ax.set_xticks([0, 0.5, 1.0]); ax.set_ylim(-0.6, 1.6); ax.spines["left"].set_visible(False)
+    ax.set_xlabel("Slope of SHAP on the causal estimate", fontsize=6.8, labelpad=0.5)
+    # ---- 4 messages ----
+    bg.plot([6, 324], [26.4, 26.4], color=F.RULE, lw=1.0)
+    msgs = [("For analysts", "SHAP gives the direction of an effect,\nnot its magnitude", TEAL), ("For model builders", "Test on later years and check whether\nrecording depends on the outcome", SAF),
+            ("For safety statistics", "Compare modes only after adjusting for\nplace; severity labels vary by area", PET), ("For policy", "Separate riders from heavy vehicles\nand address single-vehicle crashes", VER)]
+    for i, (hd, tx, col) in enumerate(msgs):
+        x = 6 + i * 80.5; bg.add_patch(FancyBboxPatch((x, 4), 3.0, 18.5, boxstyle="round,pad=0,rounding_size=1.2", fc=col, ec="none"))
+        bg.text(x + 6, 18.6, hd, ha="left", va="center", fontsize=9.2, color=col); bg.text(x + 6, 9.6, tx, ha="left", va="center", fontsize=7.8, color=F.INK, linespacing=1.15)
+    finish(fig, "GraphicalAbstract")
+
+
+FIGS = {"fig01": fig01, "fig02": fig02, "fig03": fig_geography, "fig04": fig_recording, "fig05": fig_performance, "fig06": fig_shap, "fig07": fig_audit, "fig08": fig_sources, "fig09": fig_groups, "fig10": fig_robustness, "ga": graphical_abstract}
 for k, fn in FIGS.items():
     if not args.only or args.only == k: fn()

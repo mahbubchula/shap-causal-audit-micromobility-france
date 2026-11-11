@@ -4,6 +4,8 @@ Code, pre-analysis plan and results for the paper:
 
 > Hassan, M. (2026). *Do explainable machine learning attributions agree with causal estimates? Evidence from e-scooter, e-bike, and bicycle rider injury severity in France, 2020–2025.* Manuscript submitted for publication.
 
+![Graphical abstract](figures/png/GraphicalAbstract.png)
+
 ![Methodological framework](figures/png/Fig01_methodological_framework.png)
 
 ## What the study does
