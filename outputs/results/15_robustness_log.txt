@@ -1,0 +1,53 @@
+=== ESTIMATES (percentage points) ===
+factor                                       A1   A2   B1   B2   B3   B4   B5    C1    C2   C3    D1   D2
+check                                                                                                    
+MAIN                                        2.1  5.1 -2.0  1.4 -0.1 -2.2 -0.2  17.6  12.5 -4.5  12.9  2.0
+R1 include 2019                             2.7  5.1 -1.8  2.3  0.0 -2.0  0.0  18.5  11.6 -4.4  13.3  2.1
+R2 exclude Paris police area                2.7  6.7 -3.0  4.8 -0.2 -3.1 -0.1  19.3  15.2 -6.3  18.2  2.5
+R3 fatal outcome                            0.8  1.0 -0.3  0.9 -0.1 -0.4 -1.6   9.7   4.5 -1.6   5.9  0.9
+R4 motor-vehicle collisions only            0.6  4.5 -1.8  1.1 -0.1 -0.9  0.3  17.6   NaN -5.0  12.3  1.8
+R5 e-scooters: early-adopter departements -12.9  5.1 -1.9  2.6 -0.2 -2.4 -0.1  18.0  10.3 -5.1  11.8  1.6
+R6a any-row location variables              2.0  5.1 -2.0  1.3 -0.1 -2.2 -0.0  17.5  12.5 -4.7  12.9  2.0
+R6b drop location-file variables            0.8  5.2 -3.1  2.3  0.5 -3.3 -0.8  18.2  14.4 -3.9  12.9  2.0
+R7a random forest nuisances                 1.5  3.9 -2.8  4.6 -0.6 -3.8 -0.7  17.5   9.6 -5.0  15.0  2.6
+R7b logistic nuisances                      1.2  4.4 -1.6  1.1 -0.8 -3.2 -0.4  17.7  11.5 -4.7  13.4  2.9
+R8a trim 0.01                               2.3  5.3 -2.0  1.0 -0.1 -2.1 -0.2  17.3  12.3 -4.2  12.9  2.0
+R8b trim 0.05                               1.8  4.7 -2.0  3.2 -0.1 -2.4 -0.2  18.2  12.4 -4.5  13.1  2.0
+R9 partially linear model                   2.4  3.4 -2.4  4.2  0.4 -1.7 -0.3  16.7  11.3 -2.2  15.8  2.0
+R11 benchmark: departement                  2.1  5.1 -2.0  1.4 -0.1 -2.2 -0.2  17.6  12.5 -4.5  12.9  2.0
+
+=== SIGN AND SIGNIFICANCE at 5% (+ / - / 0 = not significant) ===
+factor                                    A1 A2 B1 B2 B3 B4 B5 C1   C2 C3 D1 D2
+check                                                                          
+R1 include 2019                            +  +  -  0  0  -  0  +    +  -  +  +
+R2 exclude Paris police area               +  +  -  0  0  -  0  +    +  -  +  +
+R3 fatal outcome                           0  0  0  0  0  0  -  +    +  -  +  +
+R4 motor-vehicle collisions only           0  +  -  0  0  0  0  +  NaN  -  +  +
+R5 e-scooters: early-adopter departements  -  +  -  0  0  -  0  +    +  -  +  +
+R6a any-row location variables             +  +  -  0  0  -  0  +    +  -  +  +
+R6b drop location-file variables           0  +  -  0  0  -  0  +    +  -  +  +
+R7a random forest nuisances                +  +  -  0  0  -  0  +    +  -  +  +
+R7b logistic nuisances                     +  +  -  0  0  -  0  +    +  -  +  +
+R8a trim 0.01                              +  +  -  0  0  -  0  +    +  -  +  +
+R8b trim 0.05                              +  +  -  0  0  -  0  +    +  -  +  +
+R9 partially linear model                  +  +  -  +  0  -  0  +    +  -  +  +
+R11 benchmark: departement                 +  +  -  0  0  -  0  +    +  -  +  +
+
+=== R11: robustness value vs a confounder as strong as departement ===
+factor   theta     rv    rva  bench_cf_y  bench_cf_d  bench_delta_theta
+    A1  0.0208 0.0142 0.0075      0.0593      0.0424            -0.0045
+    A2  0.0507 0.0341 0.0241      0.0563      0.0232            -0.0092
+    B1 -0.0204 0.0192 0.0108      0.0788      0.3770            -0.0385
+    B2  0.0142 0.0125 0.0000      0.0420      0.3417             0.0500
+    B3 -0.0013 0.0010 0.0000      0.0696      0.0795            -0.0072
+    B4 -0.0221 0.0166 0.0093      0.0700      0.2435            -0.0198
+    B5 -0.0019 0.0019 0.0000      0.0683      0.1201            -0.0086
+    C1  0.1756 0.0869 0.0734      0.0717      0.0517            -0.0036
+    C2  0.1251 0.0597 0.0529      0.0775      0.3396            -0.0617
+    C3 -0.0453 0.0179 0.0124      0.0668      0.0596            -0.0095
+    D1  0.1292 0.0706 0.0622      0.1082      0.1631             0.0876
+    D2  0.0203 0.0213 0.0129      0.0953      0.0096             0.0146
+
+not ok:
+                           check factor         status
+R4 motor-vehicle collisions only     C2 not applicable

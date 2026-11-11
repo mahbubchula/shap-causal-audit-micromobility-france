@@ -1,0 +1,13 @@
+{
+ "lgbm": {
+  "cat_smooth": 59.45508712420121,
+  "colsample_bytree": 0.5291696158183032,
+  "learning_rate": 0.024448682646868676,
+  "min_child_samples": 163,
+  "n_estimators": 474,
+  "num_leaves": 30,
+  "reg_lambda": 1.2101892807360917,
+  "subsample": 0.7185644771463393
+ },
+ "logit_C": 0.3
+}

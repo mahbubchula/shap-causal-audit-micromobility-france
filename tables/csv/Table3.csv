@@ -1,0 +1,33 @@
+﻿Tier,Variable,Source file,Type,Definition,Unknown (%)
+0: time and place,Year,Characteristics,"Numeric, 2020–2025",Year of the crash,0.0
+0: time and place,Month,Characteristics,"Numeric, 1–12",Month of the crash,0.0
+0: time and place,Day of week,Characteristics,"Numeric, 0–6",Derived from the date of the crash,0.0
+0: time and place,Hour of day,Characteristics,"Numeric, 0–23",Hour of the crash,0.0
+0: time and place,Département,Characteristics,"Categorical, 96 levels",Département in which the crash occurred,0.0
+0: time and place,Urban area,Characteristics,Binary,Crash inside a built-up area,0.0
+1: rider and vehicle,Transport mode,Vehicles,"Categorical, 3 levels","Bicycle, e-bike or motorized personal mobility device",0.0
+1: rider and vehicle,Age,Users,"Numeric, 0–97",Year of the crash minus year of birth,1.4
+1: rider and vehicle,Sex,Users,"Categorical, 2 levels",Sex of the rider,1.2
+1: rider and vehicle,Trip purpose,Users,"Categorical, 6 levels",Purpose of the trip at the time of the crash,23.8
+1: rider and vehicle,Passengers,Users,"Numeric, 0–3",Number of other occupants of the rider's vehicle,0.0
+2: road and conditions,Road category,Locations,"Categorical, 8 levels",Administrative category of the road,0.0
+2: road and conditions,Traffic regime,Locations,"Categorical, 4 levels","One-way, two-way or divided roadways",6.6
+2: road and conditions,Number of lanes,Locations,"Numeric, 1–12",Total number of traffic lanes,7.1
+2: road and conditions,Cycle facility,Locations,"Categorical, 4 levels","Presence and type of a reserved lane (cycle path, cycle lane, other reserved lane)",2.6
+2: road and conditions,Gradient,Locations,"Categorical, 4 levels",Longitudinal profile of the road,0.0
+2: road and conditions,Alignment,Locations,"Categorical, 4 levels",Horizontal alignment of the road,0.0
+2: road and conditions,Infrastructure,Locations,"Categorical, 9 levels","Special infrastructure at the site (tunnel, bridge, roundabout approach and others)",5.4
+2: road and conditions,Speed limit,Locations,"Numeric, 5–110","Maximum authorized speed at the site, km/h",3.1
+2: road and conditions,Intersection type,Characteristics,"Categorical, 9 levels","Type of intersection, or none",0.0
+2: road and conditions,Lighting,Characteristics,"Categorical, 5 levels","Daylight, twilight, or night with or without working street lighting",0.0
+2: road and conditions,Weather,Characteristics,"Categorical, 9 levels",Atmospheric conditions,0.0
+2: road and conditions,Surface condition,Locations,"Categorical, 9 levels",Condition of the road surface,0.0
+3: crash configuration,Position on road,Locations,"Categorical, 7 levels","Position of the crash (roadway, cycle path, sidewalk and others)",0.0
+3: crash configuration,Collision type,Characteristics,"Categorical, 7 levels",Type of collision,0.8
+3: crash configuration,Opponent type,Vehicles,"Categorical, 10 levels","Category of the other party, derived from the other vehicles and pedestrians in the crash",0.0
+3: crash configuration,Vehicles involved,Vehicles,"Numeric, 1–4",Number of vehicles in the crash (four or more grouped),0.0
+3: crash configuration,Pedestrian struck,Users,Binary,At least one pedestrian struck by the rider's vehicle,0.0
+3: crash configuration,Fixed obstacle,Vehicles,"Categorical, 18 levels",Fixed obstacle struck,0.0
+3: crash configuration,Mobile obstacle,Vehicles,"Categorical, 7 levels",Mobile obstacle struck,0.1
+3: crash configuration,Point of impact,Vehicles,"Categorical, 10 levels",Point of initial impact on the vehicle,0.1
+3: crash configuration,Maneuver,Vehicles,"Categorical, 26 levels",Main maneuver before the crash,8.5

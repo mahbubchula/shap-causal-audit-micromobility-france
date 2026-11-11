@@ -1,0 +1,59 @@
+\begin{table}[tp]
+\centering\small
+\caption{Unadjusted difference, SHAP contrast, model what-if and double machine learning estimate for all 43 estimates}\label{tab:tables6}
+\begin{threeparttable}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llp{4.4cm}rrrrrrrr}
+\toprule
+Riders & ID & Contrast & n & Unadjusted (pp) & SHAP contrast (pp) & Model what-if (pp) & Double ML (pp) & 95\% CI & p & q \\
+\midrule
+All riders & A1 & E-scooter vs. bicycle & 42,994 & $-$9.0 & +1.6 & +1.1 & +2.1 & 0.8 to 3.3 & $<$0.001 & 0.002 \\
+All riders & A2 & E-bike vs. bicycle & 33,966 & $-$0.7 & +3.1 & +2.7 & +5.1 & 3.0 to 7.1 & $<$0.001 & $<$0.001 \\
+All riders & D1 & Age 65 or over vs. 25–64 & 33,037 & +32.1 & +11.5 & +10.4 & +12.9 & 6.4 to 19.4 & $<$0.001 & $<$0.001 \\
+All riders & D2 & Male vs. female & 46,358 & +8.3 & +1.3 & +1.4 & +2.0 & 1.0 to 3.0 & $<$0.001 & $<$0.001 \\
+All riders & B1 & Speed limit $\leq$30 vs. 50 km/h (urban) & 39,049 & $-$11.5 & $-$1.7 & $-$2.1 & $-$2.0 & $-$3.5 to $-$0.6 & 0.005 & 0.011 \\
+All riders & B4 & Reserved cycle facility vs. none & 43,104 & $-$15.7 & $-$0.8 & $-$1.2 & $-$2.2 & $-$3.8 to $-$0.7 & 0.005 & 0.011 \\
+All riders & B5 & Intersection vs. no intersection & 46,919 & $-$8.6 & +0.4 & +1.2 & $-$0.2 & $-$1.0 to 0.6 & 0.650 & 0.776 \\
+All riders & B2 & Night without vs. with working street lighting & 8,512 & +26.1 & +1.3 & +1.5 & +1.4 & $-$5.8 to 8.6 & 0.700 & 0.792 \\
+All riders & B3 & Adverse weather or non-dry surface vs. normal and dry & 45,418 & $-$4.0 & $-$0.1 & $-$0.6 & $-$0.1 & $-$2.1 to 1.8 & 0.895 & 0.921 \\
+All riders & B6 & Urban vs. outside urban area & 46,920 & $-$42.5 & $-$7.3 & $-$6.2 & $-$28.2 & $-$37.2 to $-$19.2 & $<$0.001 & $<$0.001 \\
+All riders & C1 & Heavy-vehicle vs. car opponent & 27,435 & +19.8 & +17.1 & +17.0 & +17.6 & 13.3 to 21.8 & $<$0.001 & $<$0.001 \\
+All riders & C2 & Single-vehicle crash vs. collision with a motor vehicle & 40,132 & +15.3 & +9.0 & +11.2 & +12.5 & 8.4 to 16.6 & $<$0.001 & $<$0.001 \\
+All riders & C3 & Cycle path vs. roadway & 42,800 & $-$15.2 & $-$1.2 & $-$1.2 & $-$4.5 & $-$6.9 to $-$2.2 & $<$0.001 & $<$0.001 \\
+Bicycle & D1 & Age 65 or over vs. 25–64 & 22,807 & +31.4 & +11.2 & +10.9 & +14.0 & 8.2 to 19.8 & $<$0.001 & $<$0.001 \\
+Bicycle & D2 & Male vs. female & 29,765 & +10.4 & +1.3 & +1.2 & +1.4 & $-$0.0 to 2.7 & 0.053 & 0.104 \\
+Bicycle & B1 & Speed limit $\leq$30 vs. 50 km/h (urban) & 23,685 & $-$13.4 & $-$1.8 & $-$2.4 & $-$2.6 & $-$4.6 to $-$0.5 & 0.014 & 0.029 \\
+Bicycle & B4 & Reserved cycle facility vs. none & 27,819 & $-$19.8 & $-$1.0 & $-$1.5 & $-$3.2 & $-$5.3 to $-$1.2 & 0.002 & 0.004 \\
+Bicycle & B5 & Intersection vs. no intersection & 30,040 & $-$9.9 & +0.4 & +1.0 & $-$0.0 & $-$1.1 to 1.1 & 0.999 & 0.999 \\
+Bicycle & B2 & Night without vs. with working street lighting & 4,538 & +31.4 & +1.3 & +1.6 & +2.6 & $-$8.4 to 13.5 & 0.645 & 0.776 \\
+Bicycle & B3 & Adverse weather or non-dry surface vs. normal and dry & 28,923 & $-$6.0 & $-$0.2 & $-$0.7 & $-$0.4 & $-$3.0 to 2.2 & 0.742 & 0.818 \\
+Bicycle & B6 & Urban vs. outside urban area & 30,040 & $-$41.9 & $-$7.4 & $-$6.2 & $-$27.7 & $-$37.0 to $-$18.4 & $<$0.001 & $<$0.001 \\
+Bicycle & C1 & Heavy-vehicle vs. car opponent & 17,637 & +19.9 & +17.0 & +16.7 & +18.7 & 14.1 to 23.3 & $<$0.001 & $<$0.001 \\
+Bicycle & C2 & Single-vehicle crash vs. collision with a motor vehicle & 25,837 & +16.4 & +8.9 & +11.0 & +9.9 & 6.4 to 13.5 & $<$0.001 & $<$0.001 \\
+Bicycle & C3 & Cycle path vs. roadway & 27,718 & $-$18.5 & $-$1.2 & $-$1.2 & $-$5.3 & $-$8.3 to $-$2.2 & $<$0.001 & 0.002 \\
+E-bike & D1 & Age 65 or over vs. 25–64 & 3,235 & +32.5 & +10.7 & +9.8 & +9.7 & $-$3.5 to 22.8 & 0.149 & 0.229 \\
+E-bike & D2 & Male vs. female & 3,901 & +3.5 & +1.3 & +1.4 & +2.0 & $-$0.8 to 4.7 & 0.164 & 0.236 \\
+E-bike & B1 & Speed limit $\leq$30 vs. 50 km/h (urban) & 3,314 & $-$14.7 & $-$1.7 & $-$2.0 & $-$4.2 & $-$9.1 to 0.6 & 0.085 & 0.146 \\
+E-bike & B4 & Reserved cycle facility vs. none & 3,542 & $-$17.8 & $-$0.8 & $-$1.0 & +0.3 & $-$4.9 to 5.5 & 0.897 & 0.921 \\
+E-bike & B5 & Intersection vs. no intersection & 3,926 & $-$10.3 & +0.5 & +1.4 & +1.3 & $-$2.1 to 4.6 & 0.450 & 0.586 \\
+E-bike & B3 & Adverse weather or non-dry surface vs. normal and dry & 3,792 & $-$5.8 & $-$0.2 & $-$0.7 & +5.0 & $-$4.1 to 14.2 & 0.282 & 0.391 \\
+E-bike & B6 & Urban vs. outside urban area & 3,926 & $-$49.1 & $-$7.1 & $-$6.4 & $-$37.4 & $-$49.2 to $-$25.7 & $<$0.001 & $<$0.001 \\
+E-bike & C2 & Single-vehicle crash vs. collision with a motor vehicle & 3,268 & +12.7 & +8.6 & +10.9 & +6.4 & $-$1.8 to 14.6 & 0.126 & 0.200 \\
+E-bike & C3 & Cycle path vs. roadway & 3,609 & $-$15.1 & $-$1.0 & $-$0.9 & $-$5.7 & $-$12.8 to 1.5 & 0.119 & 0.197 \\
+E-scooter & D2 & Male vs. female & 12,692 & +5.5 & +1.4 & +1.7 & +3.5 & 1.9 to 5.1 & $<$0.001 & $<$0.001 \\
+E-scooter & B1 & Speed limit $\leq$30 vs. 50 km/h (urban) & 12,050 & $-$7.2 & $-$1.5 & $-$1.6 & $-$0.6 & $-$2.3 to 1.1 & 0.493 & 0.623 \\
+E-scooter & B4 & Reserved cycle facility vs. none & 11,743 & $-$5.3 & $-$0.5 & $-$0.5 & +0.2 & $-$2.3 to 2.6 & 0.900 & 0.921 \\
+E-scooter & B5 & Intersection vs. no intersection & 12,953 & $-$4.3 & +0.5 & +1.6 & $-$1.1 & $-$2.6 to 0.4 & 0.161 & 0.236 \\
+E-scooter & B2 & Night without vs. with working street lighting & 3,257 & +18.4 & +1.3 & +1.4 & $-$2.3 & $-$12.9 to 8.3 & 0.668 & 0.776 \\
+E-scooter & B3 & Adverse weather or non-dry surface vs. normal and dry & 12,703 & +1.3 & $-$0.1 & $-$0.3 & +1.3 & $-$1.6 to 4.2 & 0.367 & 0.493 \\
+E-scooter & B6 & Urban vs. outside urban area & 12,954 & $-$33.7 & $-$7.5 & $-$6.3 & $-$28.6 & $-$36.1 to $-$21.1 & $<$0.001 & $<$0.001 \\
+E-scooter & C1 & Heavy-vehicle vs. car opponent & 7,689 & +13.0 & +17.3 & +17.2 & +11.6 & $-$0.8 to 23.9 & 0.066 & 0.118 \\
+E-scooter & C2 & Single-vehicle crash vs. collision with a motor vehicle & 11,027 & +15.7 & +9.1 & +11.6 & +14.3 & 9.1 to 19.5 & $<$0.001 & $<$0.001 \\
+E-scooter & C3 & Cycle path vs. roadway & 11,473 & $-$7.5 & $-$1.1 & $-$1.3 & $-$3.6 & $-$7.4 to 0.2 & 0.066 & 0.118 \\
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}[flushleft]\footnotesize
+\item pp, percentage points of the probability of being killed or hospitalized. Estimates are omitted where either group contained fewer than 200 riders or 30 severe outcomes. B6 does not satisfy the overlap condition and is not interpreted.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

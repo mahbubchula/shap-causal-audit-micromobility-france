@@ -1,0 +1,12 @@
+# raw and derived data are downloaded and rebuilt by the pipeline
+data/raw/*
+!data/raw/MANIFEST.csv
+data/interim/
+outputs/models/
+outputs/results/*.parquet
+figures/tiff/
+figures/svg/
+manuscript/
+__pycache__/
+*.pyc
+.DS_Store

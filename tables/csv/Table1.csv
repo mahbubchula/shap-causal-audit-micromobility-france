@@ -1,0 +1,5 @@
+﻿File,Unit of observation,"Records, 2019–2025",Variables used
+Characteristics,Crash,"382,721","Date and time, lighting, weather, département, urban area, intersection type, collision type"
+Locations,Road record (one per crash until 2022; one or more from 2023),"430,628","Road category, traffic regime, number of lanes, reserved lane, gradient, alignment, infrastructure, position of the crash, surface condition, speed limit"
+Vehicles,Vehicle,"653,712","Vehicle category, maneuver before the crash, fixed and mobile obstacle struck, point of initial impact"
+Users,Person,"871,534","Role, injury severity, sex, year of birth, trip purpose, safety equipment"

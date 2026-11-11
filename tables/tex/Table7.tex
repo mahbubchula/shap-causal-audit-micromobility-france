@@ -1,0 +1,22 @@
+\begin{table}[tp]
+\centering\small
+\caption{Agreement between the SHAP contrast and the double machine learning estimate}\label{tab:table7}
+\begin{threeparttable}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Set of estimates & Estimates & With q $<$ 0.05 & Same sign, all & Same sign, q $<$ 0.05 & SHAP within 95\% CI & What-if within 95\% CI & SHAP smaller in magnitude, q $<$ 0.05 & Median ratio, q $<$ 0.05 & Standardized difference beyond $\pm$1.96 \\
+\midrule
+All riders & 12 & 9 & 11/12 (92) & 9/9 (100) & 11/12 (92) & 9/12 (75) & 9/9 (100) & 0.72 & 1/12 (8) \\
+Bicycle & 10 & 6 & 9/10 (90) & 6/6 (100) & 8/10 (80) & 9/10 (90) & 6/6 (100) & 0.75 & 2/10 (20) \\
+E-bike & 8 & 0 & 6/8 (75) & – & 8/8 (100) & 8/8 (100) & – & – & 0/8 (0) \\
+E-scooter & 9 & 2 & 5/9 (56) & 2/2 (100) & 7/9 (78) & 7/9 (78) & 2/2 (100) & 0.52 & 2/9 (22) \\
+All estimates & 39 & 17 & 31/39 (79) & 17/17 (100) & 34/39 (87) & 33/39 (85) & 17/17 (100) & 0.71 & 5/39 (13) \\
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}[flushleft]\footnotesize
+\item Cells give the number of estimates meeting the criterion over the number considered, with the percentage in parentheses. The ratio is the absolute SHAP contrast divided by the absolute double ML estimate.
+\item The urban versus non-urban contrast is excluded because the overlap condition was not satisfied. Rank concordance between the readings is shown in Figure 7e.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

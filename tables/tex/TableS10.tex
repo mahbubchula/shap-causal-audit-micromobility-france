@@ -1,0 +1,28 @@
+\begin{table}[tp]
+\centering\small
+\caption{Sensitivity of the double machine learning estimates to unobserved confounding}\label{tab:tables10}
+\begin{threeparttable}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lp{4.4cm}rrrrrr}
+\toprule
+ID & Contrast & Estimate (pp) & RV (\%) & RVa (\%) & Benchmark: outcome (\%) & Benchmark: factor (\%) & Change in estimate under benchmark (pp) \\
+\midrule
+A1 & E-scooter vs. bicycle & +2.1 & 1.4 & 0.7 & 5.9 & 4.2 & $-$0.5 \\
+A2 & E-bike vs. bicycle & +5.1 & 3.4 & 2.4 & 5.6 & 2.3 & $-$0.9 \\
+D1 & Age 65 or over vs. 25–64 & +12.9 & 7.1 & 6.2 & 10.8 & 16.3 & +8.8 \\
+D2 & Male vs. female & +2.0 & 2.1 & 1.3 & 9.5 & 1.0 & +1.5 \\
+B1 & Speed limit $\leq$30 vs. 50 km/h (urban) & $-$2.0 & 1.9 & 1.1 & 7.9 & 37.7 & $-$3.8 \\
+B4 & Reserved cycle facility vs. none & $-$2.2 & 1.7 & 0.9 & 7.0 & 24.4 & $-$2.0 \\
+B5 & Intersection vs. no intersection & $-$0.2 & 0.2 & 0.0 & 6.8 & 12.0 & $-$0.9 \\
+B2 & Night without vs. with working street lighting & +1.4 & 1.2 & 0.0 & 4.2 & 34.2 & +5.0 \\
+B3 & Adverse weather or non-dry surface vs. normal and dry & $-$0.1 & 0.1 & 0.0 & 7.0 & 7.9 & $-$0.7 \\
+C1 & Heavy-vehicle vs. car opponent & +17.6 & 8.7 & 7.3 & 7.2 & 5.2 & $-$0.4 \\
+C2 & Single-vehicle crash vs. collision with a motor vehicle & +12.5 & 6.0 & 5.3 & 7.7 & 34.0 & $-$6.2 \\
+C3 & Cycle path vs. roadway & $-$4.5 & 1.8 & 1.2 & 6.7 & 6.0 & $-$1.0 \\
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}[flushleft]\footnotesize
+\item RV and RVa are the robustness values for the point estimate and for statistical significance. The benchmark is département: the columns give the share of residual variation in the outcome and in the factor that it explains, and the change in the estimate that an unobserved confounder of the same strength would produce.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

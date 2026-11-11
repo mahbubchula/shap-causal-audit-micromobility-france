@@ -1,0 +1,2035 @@
+[
+ {
+  "key": "wen_2021_review",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Wen",
+    "given": "Xiao"
+   },
+   {
+    "family": "Xie",
+    "given": "Yuanchang"
+   },
+   {
+    "family": "Jiang",
+    "given": "Liming"
+   },
+   {
+    "family": "Pu",
+    "given": "Ziyuan"
+   },
+   {
+    "family": "Ge",
+    "given": "Tingjian"
+   }
+  ],
+  "year": 2021,
+  "title": "Applications of machine learning methods in traffic crash severity modelling: current status and future directions",
+  "container": "Transport Reviews",
+  "volume": "41",
+  "issue": "6",
+  "pages": "855-879",
+  "article_number": "",
+  "publisher": "Informa UK Limited",
+  "doi": "10.1080/01441647.2021.1954108",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 1,
+  "summary": "Review of machine learning in crash severity modelling: imbalanced data remains a major issue, under- and over-sampling are often used despite their limitations, very few studies consider the accuracy and reliability of evaluation metrics, and causality and transferability are listed among the open issues.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "kashifi_2023_twowheelers",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Kashifi",
+    "given": "Mohammad Tamim"
+   }
+  ],
+  "year": 2023,
+  "title": "Investigating two-wheelers risk factors for severe crashes using an interpretable machine learning approach and SHAP analysis",
+  "container": "IATSS Research",
+  "volume": "47",
+  "issue": "3",
+  "pages": "357-371",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.iatssr.2023.07.005",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 1,
+  "summary": "Applies XGBoost with SHAP to French two-wheeler crash data for 2014-2017; department, road category, urbanisation level, two-wheeler category and user age are the most influential features, and severe injury is more likely in rural areas, for older riders and for riders not wearing helmets.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "pervez_2025_escooter",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Pervez",
+    "given": "Amjad"
+   },
+   {
+    "family": "Jamal",
+    "given": "Arshad"
+   }
+  ],
+  "year": 2025,
+  "title": "Exploring e-scooter risk factors based on interpretable machine learning framework",
+  "container": "Journal of Safety Research",
+  "volume": "94",
+  "issue": "",
+  "pages": "128-140",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.jsr.2025.06.011",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 1,
+  "summary": "Analyses 2,400 e-scooter crash records from the UK STATS19 database with machine-learning models; LightGBM performed best and SHAP identified number of vehicles involved, first point of impact, rider gender, lighting, pedestrian crossings and road type as key factors.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "scarano_2025_cyclist",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Scarano",
+    "given": "Antonella"
+   },
+   {
+    "family": "Sadeghi",
+    "given": "Matin"
+   },
+   {
+    "family": "Mauriello",
+    "given": "Filomena"
+   },
+   {
+    "family": "Riccardi",
+    "given": "Maria Rella"
+   },
+   {
+    "family": "Aghabayk",
+    "given": "Kayvan"
+   },
+   {
+    "family": "Montella",
+    "given": "Alfonso"
+   }
+  ],
+  "year": 2025,
+  "title": "Cyclist crash severity modeling: A hybrid approach of XGBoost-SHAP and random parameters logit with heterogeneity in means and variances",
+  "container": "Journal of Safety Research",
+  "volume": "93",
+  "issue": "",
+  "pages": "373-398",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.jsr.2025.04.003",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 1,
+  "summary": "Combines XGBoost-SHAP with a random parameters logit model with heterogeneity in means and variances to study cyclist crash severity in Great Britain, 2016-2019; XGBoost-SHAP is used to reduce dimensionality and to examine interactions.",
+  "summary_basis": "abstract",
+  "priority": "supplementary"
+ },
+ {
+  "key": "budzynski_2026_cyclist",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Budzyński",
+    "given": "Artur"
+   },
+   {
+    "family": "Cieśla",
+    "given": "Maria"
+   }
+  ],
+  "year": 2026,
+  "title": "Explainable Machine Learning for Cyclist Injury Severity in Bicycle–Vehicle Crashes in Poland: Association Patterns and Implications for Sustainable Road Safety",
+  "container": "Sustainability",
+  "volume": "18",
+  "issue": "11",
+  "pages": "",
+  "article_number": "5501",
+  "publisher": "MDPI AG",
+  "doi": "10.3390/su18115501",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 1,
+  "summary": "Models five ordered injury-severity classes for 152,567 cyclist-involved police records in Poland (2015-2024) with CatBoost, including calendar-based walk-forward stress tests and SHAP; discrimination is modest (hold-out quadratic weighted kappa about 0.20) and the SHAP results are presented as association patterns to be interpreted cautiously.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "somvanshi_2026_childbicyclist",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Somvanshi",
+    "given": "Shriyank"
+   },
+   {
+    "family": "Das",
+    "given": "Subasish"
+   },
+   {
+    "family": "Polock",
+    "given": "Sazzad Bin Bashar"
+   }
+  ],
+  "year": 2026,
+  "title": "Predicting Child-Bicyclist Crash Severity Under Severe Class Imbalance: A Benchmark of XGBoost and Tabular Deep Learning",
+  "container": "Data Science for Transportation",
+  "volume": "8",
+  "issue": "3",
+  "pages": "",
+  "article_number": "39",
+  "publisher": "Springer Science and Business Media LLC",
+  "doi": "10.1007/s42421-026-00184-2",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 1,
+  "summary": "Benchmarks XGBoost and three tabular deep-learning models on 2,394 Texas child-bicyclist crashes (2017-2022), partitioning the data before feature selection, preprocessing and imbalance treatment; multinomial logistic regression exceeded the primary models on balanced accuracy and macro ROC-AUC, and SHAP rankings showed limited stability relative to cross-seed permutation importance.",
+  "summary_basis": "abstract",
+  "priority": "supplementary"
+ },
+ {
+  "key": "vickers_2006_decisioncurve",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Vickers",
+    "given": "Andrew J."
+   },
+   {
+    "family": "Elkin",
+    "given": "Elena B."
+   }
+  ],
+  "year": 2006,
+  "title": "Decision Curve Analysis: A Novel Method for Evaluating Prediction Models",
+  "container": "Medical Decision Making",
+  "volume": "26",
+  "issue": "6",
+  "pages": "565-574",
+  "article_number": "",
+  "publisher": "SAGE Publications",
+  "doi": "10.1177/0272989x06295361",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 2,
+  "summary": "Introduces decision curve analysis, which evaluates prediction models by net benefit across threshold probabilities and requires only the data set on which the models are tested.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "vancalster_2019_calibration",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Van Calster",
+    "given": "Ben"
+   },
+   {
+    "family": "McLernon",
+    "given": "David J."
+   },
+   {
+    "family": "van Smeden",
+    "given": "Maarten"
+   },
+   {
+    "family": "Wynants",
+    "given": "Laure"
+   },
+   {
+    "family": "Steyerberg",
+    "given": "Ewout W."
+   },
+   {
+    "literal": "On behalf of Topic Group ‘Evaluating diagnostic tests and prediction models’ of the STRATOS initiative"
+   }
+  ],
+  "year": 2019,
+  "title": "Calibration: the Achilles heel of predictive analytics",
+  "container": "BMC Medicine",
+  "volume": "17",
+  "issue": "1",
+  "pages": "",
+  "article_number": "230",
+  "publisher": "Springer Science and Business Media LLC",
+  "doi": "10.1186/s12916-019-1466-7",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 2,
+  "summary": "Argues that calibration of risk prediction models receives too little attention although poorly calibrated algorithms can be misleading and harmful for decision-making, and summarises how to avoid poor calibration at development and assess it at validation.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "vandengoorbergh_2022_imbalance",
+  "type": "article",
+  "authors": [
+   {
+    "family": "van den Goorbergh",
+    "given": "Ruben"
+   },
+   {
+    "family": "van Smeden",
+    "given": "Maarten"
+   },
+   {
+    "family": "Timmerman",
+    "given": "Dirk"
+   },
+   {
+    "family": "Van Calster",
+    "given": "Ben"
+   }
+  ],
+  "year": 2022,
+  "title": "The harm of class imbalance corrections for risk prediction models: illustration and simulation using logistic regression",
+  "container": "Journal of the American Medical Informatics Association",
+  "volume": "29",
+  "issue": "9",
+  "pages": "1525-1534",
+  "article_number": "",
+  "publisher": "Oxford University Press (OUP)",
+  "doi": "10.1093/jamia/ocac093",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 2,
+  "summary": "Simulation and case study showing that random undersampling, random oversampling and SMOTE give poorly calibrated logistic regression models (minority-class probability strongly overestimated) without a higher area under the ROC curve; a similar sensitivity-specificity balance is obtained by shifting the probability threshold.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "kapoor_2023_leakage",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Kapoor",
+    "given": "Sayash"
+   },
+   {
+    "family": "Narayanan",
+    "given": "Arvind"
+   }
+  ],
+  "year": 2023,
+  "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+  "container": "Patterns",
+  "volume": "4",
+  "issue": "9",
+  "pages": "",
+  "article_number": "100804",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.patter.2023.100804",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 2,
+  "summary": "Surveys ML-based science and finds data leakage in 17 fields, collectively affecting 294 papers; gives a taxonomy of eight types of leakage and proposes model info sheets; in a reproducibility study of civil war prediction, complex ML models do not perform substantively better than logistic regression once the errors are corrected.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "collins_2024_tripodai",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Collins",
+    "given": "Gary S"
+   },
+   {
+    "family": "Moons",
+    "given": "Karel G M"
+   },
+   {
+    "family": "Dhiman",
+    "given": "Paula"
+   },
+   {
+    "family": "Riley",
+    "given": "Richard D"
+   },
+   {
+    "family": "Beam",
+    "given": "Andrew L"
+   },
+   {
+    "family": "Van Calster",
+    "given": "Ben"
+   },
+   {
+    "family": "Ghassemi",
+    "given": "Marzyeh"
+   },
+   {
+    "family": "Liu",
+    "given": "Xiaoxuan"
+   },
+   {
+    "family": "Reitsma",
+    "given": "Johannes B"
+   },
+   {
+    "family": "van Smeden",
+    "given": "Maarten"
+   },
+   {
+    "family": "Boulesteix",
+    "given": "Anne-Laure"
+   },
+   {
+    "family": "Camaradou",
+    "given": "Jennifer Catherine"
+   },
+   {
+    "family": "Celi",
+    "given": "Leo Anthony"
+   },
+   {
+    "family": "Denaxas",
+    "given": "Spiros"
+   },
+   {
+    "family": "Denniston",
+    "given": "Alastair K"
+   },
+   {
+    "family": "Glocker",
+    "given": "Ben"
+   },
+   {
+    "family": "Golub",
+    "given": "Robert M"
+   },
+   {
+    "family": "Harvey",
+    "given": "Hugh"
+   },
+   {
+    "family": "Heinze",
+    "given": "Georg"
+   },
+   {
+    "family": "Hoffman",
+    "given": "Michael M"
+   },
+   {
+    "family": "Kengne",
+    "given": "André Pascal"
+   },
+   {
+    "family": "Lam",
+    "given": "Emily"
+   },
+   {
+    "family": "Lee",
+    "given": "Naomi"
+   },
+   {
+    "family": "Loder",
+    "given": "Elizabeth W"
+   },
+   {
+    "family": "Maier-Hein",
+    "given": "Lena"
+   },
+   {
+    "family": "Mateen",
+    "given": "Bilal A"
+   },
+   {
+    "family": "McCradden",
+    "given": "Melissa D"
+   },
+   {
+    "family": "Oakden-Rayner",
+    "given": "Lauren"
+   },
+   {
+    "family": "Ordish",
+    "given": "Johan"
+   },
+   {
+    "family": "Parnell",
+    "given": "Richard"
+   },
+   {
+    "family": "Rose",
+    "given": "Sherri"
+   },
+   {
+    "family": "Singh",
+    "given": "Karandeep"
+   },
+   {
+    "family": "Wynants",
+    "given": "Laure"
+   },
+   {
+    "family": "Logullo",
+    "given": "Patricia"
+   }
+  ],
+  "year": 2024,
+  "title": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods",
+  "container": "BMJ",
+  "volume": "385",
+  "issue": "",
+  "pages": "",
+  "article_number": "e078378",
+  "publisher": "BMJ",
+  "doi": "10.1136/bmj-2023-078378",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 2,
+  "summary": "TRIPOD+AI: harmonised reporting guidance (27-item checklist) for studies developing or evaluating prediction models with regression or machine learning; supersedes the TRIPOD 2015 checklist.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "demircioglu_2024_oversampling",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Demircioğlu",
+    "given": "Aydin"
+   }
+  ],
+  "year": 2024,
+  "title": "Applying oversampling before cross-validation will lead to high bias in radiomics",
+  "container": "Scientific Reports",
+  "volume": "14",
+  "issue": "1",
+  "pages": "",
+  "article_number": "11563",
+  "publisher": "Springer Science and Business Media LLC",
+  "doi": "10.1038/s41598-024-62585-z",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 2,
+  "summary": "Across 15 radiomic datasets, applying oversampling to all data before cross-validation instead of within the folds produced a large positive bias (up to 0.34 in AUC).",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "alhawarat_2026_calibrated",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Alhawarat",
+    "given": "Mohammad"
+   },
+   {
+    "family": "Alkhatib",
+    "given": "Ahmad"
+   },
+   {
+    "family": "Nijem",
+    "given": "Qasem"
+   }
+  ],
+  "year": 2026,
+  "title": "Calibrated and Explainable Gradient Boosting for Road Traffic Crash Severity Prediction: SHAP Audit and Cross-Jurisdiction Transfer Evaluation",
+  "container": "Applied Sciences",
+  "volume": "16",
+  "issue": "12",
+  "pages": "",
+  "article_number": "5876",
+  "publisher": "MDPI AG",
+  "doi": "10.3390/app16125876",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 2,
+  "summary": "Crash-severity framework on US-Accidents and UK STATS19 using strict temporal splits throughout; post hoc isotonic calibration strongly reduces expected calibration error, a SHAP audit confirms deletion faithfulness, but explanation stability fails at realistic perturbation levels.",
+  "summary_basis": "abstract",
+  "priority": "supplementary"
+ },
+ {
+  "key": "kandel_2026_leakageaware",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Kandel",
+    "given": "Manisha"
+   },
+   {
+    "family": "Mirindi",
+    "given": "Derrick"
+   },
+   {
+    "family": "Sinkhonde",
+    "given": "David"
+   },
+   {
+    "family": "Mirindi",
+    "given": "Frederic"
+   }
+  ],
+  "year": 2026,
+  "title": "Leakage-aware explainable machine learning for highway–rail grade crossing safety screening",
+  "container": "Transportation Research Today",
+  "volume": "1",
+  "issue": "",
+  "pages": "",
+  "article_number": "100026",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.trt.2026.100026",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 2,
+  "summary": "Leakage-aware explainable XGBoost screening model for US highway-rail grade crossings; identifies a missingness-driven leakage pathway (absence of weather data becoming predictive of the non-accident class) and addresses it, and reports SHAP attributions with geographic hold-out and feature-ablation checks.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "pedregosa_2011_scikitlearn",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Pedregosa",
+    "given": "Fabian"
+   },
+   {
+    "family": "Varoquaux",
+    "given": "Gaël"
+   },
+   {
+    "family": "Gramfort",
+    "given": "Alexandre"
+   },
+   {
+    "family": "Michel",
+    "given": "Vincent"
+   },
+   {
+    "family": "Thirion",
+    "given": "Bertrand"
+   },
+   {
+    "family": "Grisel",
+    "given": "Olivier"
+   },
+   {
+    "family": "Blondel",
+    "given": "Mathieu"
+   },
+   {
+    "family": "Prettenhofer",
+    "given": "Peter"
+   },
+   {
+    "family": "Weiss",
+    "given": "Ron"
+   },
+   {
+    "family": "Dubourg",
+    "given": "Vincent"
+   },
+   {
+    "family": "Vanderplas",
+    "given": "Jake"
+   },
+   {
+    "family": "Passos",
+    "given": "Alexandre"
+   },
+   {
+    "family": "Cournapeau",
+    "given": "David"
+   },
+   {
+    "family": "Brucher",
+    "given": "Matthieu"
+   },
+   {
+    "family": "Perrot",
+    "given": "Matthieu"
+   },
+   {
+    "family": "Duchesnay",
+    "given": "Édouard"
+   }
+  ],
+  "year": 2011,
+  "title": "Scikit-learn: Machine Learning in Python",
+  "container": "Journal of Machine Learning Research",
+  "volume": "12",
+  "issue": "85",
+  "pages": "2825-2830",
+  "article_number": "",
+  "publisher": "",
+  "doi": "",
+  "url": "https://jmlr.org/papers/v12/pedregosa11a.html",
+  "verified_via": "official proceedings page",
+  "verified_on": "2026-11-11",
+  "topic": 3,
+  "summary": "Describes scikit-learn, a Python module integrating a wide range of machine learning algorithms for medium-scale supervised and unsupervised problems.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "ke_2017_lightgbm",
+  "type": "inproceedings",
+  "authors": [
+   {
+    "family": "Ke",
+    "given": "Guolin"
+   },
+   {
+    "family": "Meng",
+    "given": "Qi"
+   },
+   {
+    "family": "Finley",
+    "given": "Thomas"
+   },
+   {
+    "family": "Wang",
+    "given": "Taifeng"
+   },
+   {
+    "family": "Chen",
+    "given": "Wei"
+   },
+   {
+    "family": "Ma",
+    "given": "Weidong"
+   },
+   {
+    "family": "Ye",
+    "given": "Qiwei"
+   },
+   {
+    "family": "Liu",
+    "given": "Tie-Yan"
+   }
+  ],
+  "year": 2017,
+  "title": "LightGBM: A Highly Efficient Gradient Boosting Decision Tree",
+  "container": "Advances in Neural Information Processing Systems",
+  "volume": "30",
+  "issue": "",
+  "pages": "",
+  "article_number": "",
+  "publisher": "Curran Associates, Inc.",
+  "doi": "",
+  "url": "https://papers.nips.cc/paper_files/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html",
+  "verified_via": "official proceedings page",
+  "verified_on": "2026-11-11",
+  "topic": 3,
+  "summary": "Introduces LightGBM, a gradient boosting decision tree implementation that uses Gradient-based One-Side Sampling and Exclusive Feature Bundling to improve efficiency and scalability.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "lundberg_2017_shap",
+  "type": "inproceedings",
+  "authors": [
+   {
+    "family": "Lundberg",
+    "given": "Scott M."
+   },
+   {
+    "family": "Lee",
+    "given": "Su-In"
+   }
+  ],
+  "year": 2017,
+  "title": "A Unified Approach to Interpreting Model Predictions",
+  "container": "Advances in Neural Information Processing Systems",
+  "volume": "30",
+  "issue": "",
+  "pages": "",
+  "article_number": "",
+  "publisher": "Curran Associates, Inc.",
+  "doi": "",
+  "url": "https://papers.nips.cc/paper_files/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html",
+  "verified_via": "official proceedings page",
+  "verified_on": "2026-11-11",
+  "topic": 3,
+  "summary": "Presents SHAP (SHapley Additive exPlanations), a unified framework that assigns each feature an importance value for a particular prediction and identifies the unique solution with a set of desirable properties within the class of additive feature importance measures.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "lundberg_2020_treeshap",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Lundberg",
+    "given": "Scott M."
+   },
+   {
+    "family": "Erion",
+    "given": "Gabriel"
+   },
+   {
+    "family": "Chen",
+    "given": "Hugh"
+   },
+   {
+    "family": "DeGrave",
+    "given": "Alex"
+   },
+   {
+    "family": "Prutkin",
+    "given": "Jordan M."
+   },
+   {
+    "family": "Nair",
+    "given": "Bala"
+   },
+   {
+    "family": "Katz",
+    "given": "Ronit"
+   },
+   {
+    "family": "Himmelfarb",
+    "given": "Jonathan"
+   },
+   {
+    "family": "Bansal",
+    "given": "Nisha"
+   },
+   {
+    "family": "Lee",
+    "given": "Su-In"
+   }
+  ],
+  "year": 2020,
+  "title": "From local explanations to global understanding with explainable AI for trees",
+  "container": "Nature Machine Intelligence",
+  "volume": "2",
+  "issue": "1",
+  "pages": "56-67",
+  "article_number": "",
+  "publisher": "Springer Science and Business Media LLC",
+  "doi": "10.1038/s42256-019-0138-9",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 3,
+  "summary": "Presents a polynomial-time algorithm for computing optimal game-theoretic (Shapley value) explanations for tree-based models, a measure of local interaction effects, and tools that combine many local explanations to describe global model structure.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "chen_2020_truetomodel",
+  "type": "preprint",
+  "authors": [
+   {
+    "family": "Chen",
+    "given": "Hugh"
+   },
+   {
+    "family": "Janizek",
+    "given": "Joseph D."
+   },
+   {
+    "family": "Lundberg",
+    "given": "Scott"
+   },
+   {
+    "family": "Lee",
+    "given": "Su-In"
+   }
+  ],
+  "year": 2020,
+  "title": "True to the Model or True to the Data?",
+  "container": "arXiv",
+  "volume": "",
+  "issue": "",
+  "pages": "",
+  "article_number": "arXiv:2006.16234",
+  "publisher": "arXiv",
+  "doi": "10.48550/arXiv.2006.16234",
+  "url": "",
+  "verified_via": "datacite",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "Argues that the choice between interventional and observational conditional expectations in Shapley-value feature attribution is application dependent and comes down to being true to the model or true to the data.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "heskes_2020_causalshapley",
+  "type": "inproceedings",
+  "authors": [
+   {
+    "family": "Heskes",
+    "given": "Tom"
+   },
+   {
+    "family": "Sijben",
+    "given": "Evi"
+   },
+   {
+    "family": "Bucur",
+    "given": "Ioan Gabriel"
+   },
+   {
+    "family": "Claassen",
+    "given": "Tom"
+   }
+  ],
+  "year": 2020,
+  "title": "Causal Shapley Values: Exploiting Causal Knowledge to Explain Individual Predictions of Complex Models",
+  "container": "Advances in Neural Information Processing Systems",
+  "volume": "33",
+  "issue": "",
+  "pages": "4778-4789",
+  "article_number": "",
+  "publisher": "Curran Associates, Inc.",
+  "doi": "",
+  "url": "https://papers.nips.cc/paper_files/paper/2020/hash/32e54441e6382a7fbacbbbaf3c450059-Abstract.html",
+  "verified_via": "official proceedings page",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "Proposes causal Shapley values derived with Pearl's do-calculus for general causal graphs, which separate the contributions of direct and indirect effects.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "janzing_2020_featurerelevance",
+  "type": "inproceedings",
+  "authors": [
+   {
+    "family": "Janzing",
+    "given": "Dominik"
+   },
+   {
+    "family": "Minorics",
+    "given": "Lenon"
+   },
+   {
+    "family": "Bloebaum",
+    "given": "Patrick"
+   }
+  ],
+  "year": 2020,
+  "title": "Feature relevance quantification in explainable AI: A causal problem",
+  "container": "Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics (Proceedings of Machine Learning Research)",
+  "volume": "108",
+  "issue": "",
+  "pages": "2907-2916",
+  "article_number": "",
+  "publisher": "PMLR",
+  "doi": "",
+  "url": "https://proceedings.mlr.press/v108/janzing20a.html",
+  "verified_via": "official proceedings page",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "Argues, using Pearl's distinction between observational and interventional conditional probabilities, that unconditional rather than conditional expectations give the right notion of dropping features when quantifying feature relevance with Shapley values.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "kumar_2020_shapleyproblems",
+  "type": "inproceedings",
+  "authors": [
+   {
+    "family": "Kumar",
+    "given": "I. Elizabeth"
+   },
+   {
+    "family": "Venkatasubramanian",
+    "given": "Suresh"
+   },
+   {
+    "family": "Scheidegger",
+    "given": "Carlos"
+   },
+   {
+    "family": "Friedler",
+    "given": "Sorelle"
+   }
+  ],
+  "year": 2020,
+  "title": "Problems with Shapley-value-based explanations as feature importance measures",
+  "container": "Proceedings of the 37th International Conference on Machine Learning (Proceedings of Machine Learning Research)",
+  "volume": "119",
+  "issue": "",
+  "pages": "5491-5500",
+  "article_number": "",
+  "publisher": "PMLR",
+  "doi": "",
+  "url": "https://proceedings.mlr.press/v119/kumar20e.html",
+  "verified_via": "official proceedings page",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "Shows that mathematical problems arise when Shapley values are used for feature importance, that the mitigations introduce further complexity such as the need for causal reasoning, and argues that Shapley values do not suit human-centric goals of explainability.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "ma_2020_shapleycausal",
+  "type": "inproceedings",
+  "authors": [
+   {
+    "family": "Ma",
+    "given": "Sisi"
+   },
+   {
+    "family": "Tourani",
+    "given": "Roshan"
+   }
+  ],
+  "year": 2020,
+  "title": "Predictive and Causal Implications of using Shapley Value for Model Interpretation",
+  "container": "Proceedings of the 2020 KDD Workshop on Causal Discovery (Proceedings of Machine Learning Research)",
+  "volume": "127",
+  "issue": "",
+  "pages": "23-38",
+  "article_number": "",
+  "publisher": "PMLR",
+  "doi": "",
+  "url": "https://proceedings.mlr.press/v127/ma20a.html",
+  "verified_via": "official proceedings page",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "Analyses the Shapley value in a Bayesian network framework and concludes that a variable's Shapley value does not reflect its causal relationship with the target and that Shapley-based feature selection is not predictively optimal in general.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "zhao_2021_blackbox",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Zhao",
+    "given": "Qingyuan"
+   },
+   {
+    "family": "Hastie",
+    "given": "Trevor"
+   }
+  ],
+  "year": 2021,
+  "title": "Causal Interpretations of Black-Box Models",
+  "container": "Journal of Business & Economic Statistics",
+  "volume": "39",
+  "issue": "1",
+  "pages": "272-281",
+  "article_number": "",
+  "publisher": "Informa UK Limited",
+  "doi": "10.1080/07350015.2019.1624293",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "Notes that the partial dependence plot has the same formula as the back-door adjustment and sets out three requirements for causal interpretation of black-box models: good predictive performance, domain knowledge in the form of a causal diagram, and suitable visualisation tools.",
+  "summary_basis": "abstract",
+  "priority": "supplementary"
+ },
+ {
+  "key": "molnar_2022_pitfalls",
+  "type": "chapter",
+  "authors": [
+   {
+    "family": "Molnar",
+    "given": "Christoph"
+   },
+   {
+    "family": "König",
+    "given": "Gunnar"
+   },
+   {
+    "family": "Herbinger",
+    "given": "Julia"
+   },
+   {
+    "family": "Freiesleben",
+    "given": "Timo"
+   },
+   {
+    "family": "Dandl",
+    "given": "Susanne"
+   },
+   {
+    "family": "Scholbeck",
+    "given": "Christian A."
+   },
+   {
+    "family": "Casalicchio",
+    "given": "Giuseppe"
+   },
+   {
+    "family": "Grosse-Wentrup",
+    "given": "Moritz"
+   },
+   {
+    "family": "Bischl",
+    "given": "Bernd"
+   }
+  ],
+  "year": 2022,
+  "title": "General Pitfalls of Model-Agnostic Interpretation Methods for Machine Learning Models",
+  "container": "xxAI - Beyond Explainable AI (Lecture Notes in Computer Science)",
+  "volume": "",
+  "issue": "",
+  "pages": "39-68",
+  "article_number": "",
+  "publisher": "Springer International Publishing",
+  "doi": "10.1007/978-3-031-04083-2_4",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "Catalogues general pitfalls of model-agnostic interpretation methods (partial dependence, permutation importance, Shapley values), including interpreting models that do not generalise, ignoring feature dependence and uncertainty, and making unjustified causal interpretations.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "vicentealvarez_2026_doublemlshap",
+  "type": "chapter",
+  "authors": [
+   {
+    "family": "Vicente Alvarez",
+    "given": "David"
+   },
+   {
+    "family": "Abbiati",
+    "given": "Milena"
+   },
+   {
+    "family": "Bornet",
+    "given": "Alban"
+   },
+   {
+    "family": "Savoldelli",
+    "given": "Georges"
+   },
+   {
+    "family": "Bajwa",
+    "given": "Nadia"
+   },
+   {
+    "family": "Teodoro",
+    "given": "Douglas"
+   }
+  ],
+  "year": 2026,
+  "title": "Empirical Comparison of Causal Machine Learning and Post-Hoc AI Interpretability Models for Risk Factor Analysis: An Application to Medical Specialty Choice",
+  "container": "Opening the Personal Gate between Technology and Health Care (Studies in Health Technology and Informatics)",
+  "volume": "",
+  "issue": "",
+  "pages": "",
+  "article_number": "",
+  "publisher": "IOS Press",
+  "doi": "10.3233/shti260654",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "In a cohort of 399 medical students, effects estimated with DoubleML were contrasted with SHAP explanations from an earlier predictive model: SHAP directions generally matched DoubleML for strong, well-separated factors but diverged for weaker or correlated ones.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "robins_1994_regression",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Robins",
+    "given": "James M."
+   },
+   {
+    "family": "Rotnitzky",
+    "given": "Andrea"
+   },
+   {
+    "family": "Zhao",
+    "given": "Lue Ping"
+   }
+  ],
+  "year": 1994,
+  "title": "Estimation of Regression Coefficients When Some Regressors are not Always Observed",
+  "container": "Journal of the American Statistical Association",
+  "volume": "89",
+  "issue": "427",
+  "pages": "846-866",
+  "article_number": "",
+  "publisher": "Informa UK Limited",
+  "doi": "10.1080/01621459.1994.10476818",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Proposes a class of semiparametric estimators based on inverse probability weighted estimating equations for regression when some regressors are missing at random, and derives the efficient estimator in that class.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "benjamini_1995_fdr",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Benjamini",
+    "given": "Yoav"
+   },
+   {
+    "family": "Hochberg",
+    "given": "Yosef"
+   }
+  ],
+  "year": 1995,
+  "title": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing",
+  "container": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+  "volume": "57",
+  "issue": "1",
+  "pages": "289-300",
+  "article_number": "",
+  "publisher": "Oxford University Press (OUP)",
+  "doi": "10.1111/j.2517-6161.1995.tb02031.x",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Introduces the false discovery rate, the expected proportion of falsely rejected hypotheses, and a simple sequential Bonferroni-type procedure that controls it for independent test statistics.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "crump_2009_overlap",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Crump",
+    "given": "R. K."
+   },
+   {
+    "family": "Hotz",
+    "given": "V. J."
+   },
+   {
+    "family": "Imbens",
+    "given": "G. W."
+   },
+   {
+    "family": "Mitnik",
+    "given": "O. A."
+   }
+  ],
+  "year": 2009,
+  "title": "Dealing with limited overlap in estimation of average treatment effects",
+  "container": "Biometrika",
+  "volume": "96",
+  "issue": "1",
+  "pages": "187-199",
+  "article_number": "",
+  "publisher": "Oxford University Press (OUP)",
+  "doi": "10.1093/biomet/asn055",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Develops a systematic approach to limited overlap in estimating average treatment effects and shows that discarding units with estimated propensity scores outside [0.1, 0.9] is a good approximation to the optimal rule.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "cameron_2015_cluster",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Cameron",
+    "given": "A. Colin"
+   },
+   {
+    "family": "Miller",
+    "given": "Douglas L."
+   }
+  ],
+  "year": 2015,
+  "title": "A Practitioner’s Guide to Cluster-Robust Inference",
+  "container": "Journal of Human Resources",
+  "volume": "50",
+  "issue": "2",
+  "pages": "317-372",
+  "article_number": "",
+  "publisher": "University of Wisconsin Press",
+  "doi": "10.3368/jhr.50.2.317",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Practitioner's guide to cluster-robust inference: when errors are correlated within clusters default standard errors can greatly overstate precision; covers few clusters, multi-way clustering and estimators other than OLS.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "chernozhukov_2018_dml",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Chernozhukov",
+    "given": "Victor"
+   },
+   {
+    "family": "Chetverikov",
+    "given": "Denis"
+   },
+   {
+    "family": "Demirer",
+    "given": "Mert"
+   },
+   {
+    "family": "Duflo",
+    "given": "Esther"
+   },
+   {
+    "family": "Hansen",
+    "given": "Christian"
+   },
+   {
+    "family": "Newey",
+    "given": "Whitney"
+   },
+   {
+    "family": "Robins",
+    "given": "James"
+   }
+  ],
+  "year": 2018,
+  "title": "Double/debiased machine learning for treatment and structural parameters",
+  "container": "The Econometrics Journal",
+  "volume": "21",
+  "issue": "1",
+  "pages": "C1-C68",
+  "article_number": "",
+  "publisher": "Oxford University Press (OUP)",
+  "doi": "10.1111/ectj.12097",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Introduces double/debiased machine learning: Neyman-orthogonal scores combined with cross-fitting remove the regularisation and overfitting bias of plug-in ML nuisance estimates, giving approximately unbiased, normally distributed estimators of low-dimensional causal parameters.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "cinelli_2020_sensitivity",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Cinelli",
+    "given": "Carlos"
+   },
+   {
+    "family": "Hazlett",
+    "given": "Chad"
+   }
+  ],
+  "year": 2020,
+  "title": "Making Sense of Sensitivity: Extending Omitted Variable Bias",
+  "container": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+  "volume": "82",
+  "issue": "1",
+  "pages": "39-67",
+  "article_number": "",
+  "publisher": "Oxford University Press (OUP)",
+  "doi": "10.1111/rssb.12348",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Extends the omitted variable bias framework for sensitivity analysis, introducing the robustness value and the partial R2 of the treatment with the outcome, and a formal procedure to bound confounder strength by benchmarking against observed covariates.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "semenova_2021_cate",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Semenova",
+    "given": "Vira"
+   },
+   {
+    "family": "Chernozhukov",
+    "given": "Victor"
+   }
+  ],
+  "year": 2021,
+  "title": "Debiased machine learning of conditional average treatment effects and other causal functions",
+  "container": "The Econometrics Journal",
+  "volume": "24",
+  "issue": "2",
+  "pages": "264-289",
+  "article_number": "",
+  "publisher": "Oxford University Press (OUP)",
+  "doi": "10.1093/ectj/utaa027",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Provides estimation and inference for the best linear predictor of structural functions such as conditional average treatment effects using a Neyman-orthogonal signal; when the basis functions are group indicators the estimand is the group average treatment effect.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "bach_2022_doublemlpython",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Bach",
+    "given": "Philipp"
+   },
+   {
+    "family": "Chernozhukov",
+    "given": "Victor"
+   },
+   {
+    "family": "Kurz",
+    "given": "Malte S."
+   },
+   {
+    "family": "Spindler",
+    "given": "Martin"
+   }
+  ],
+  "year": 2022,
+  "title": "DoubleML - An Object-Oriented Implementation of Double Machine Learning in Python",
+  "container": "Journal of Machine Learning Research",
+  "volume": "23",
+  "issue": "53",
+  "pages": "1-6",
+  "article_number": "",
+  "publisher": "",
+  "doi": "",
+  "url": "https://jmlr.org/papers/v23/21-0862.html",
+  "verified_via": "official proceedings page",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Describes DoubleML, an open-source Python library implementing the double machine learning framework of Chernozhukov et al. (2018) for a variety of causal models, with valid inference when nuisance parameters are estimated by machine learning.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "bach_2024_doublemlr",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Bach",
+    "given": "Philipp"
+   },
+   {
+    "family": "Kurz",
+    "given": "Malte S."
+   },
+   {
+    "family": "Chernozhukov",
+    "given": "Victor"
+   },
+   {
+    "family": "Spindler",
+    "given": "Martin"
+   },
+   {
+    "family": "Klaassen",
+    "given": "Sven"
+   }
+  ],
+  "year": 2024,
+  "title": "DoubleML: An Object-Oriented Implementation of Double Machine Learning in R",
+  "container": "Journal of Statistical Software",
+  "volume": "108",
+  "issue": "3",
+  "pages": "1-56",
+  "article_number": "",
+  "publisher": "Foundation for Open Access Statistic",
+  "doi": "10.18637/jss.v108.i03",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Introduces the R package DoubleML and the double machine learning framework (Neyman orthogonality, machine learning estimation of nuisance components, sample splitting), covering partially linear and interactive regression models.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "chernozhukov_2025_genericml",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Chernozhukov",
+    "given": "Victor"
+   },
+   {
+    "family": "Demirer",
+    "given": "Mert"
+   },
+   {
+    "family": "Duflo",
+    "given": "Esther"
+   },
+   {
+    "family": "Fernández-Val",
+    "given": "Iván"
+   }
+  ],
+  "year": 2025,
+  "title": "Fisher–Schultz Lecture: Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized Experiments, With an Application to Immunization in India",
+  "container": "Econometrica",
+  "volume": "93",
+  "issue": "4",
+  "pages": "1121-1164",
+  "article_number": "",
+  "publisher": "The Econometric Society",
+  "doi": "10.3982/ecta19303",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Proposes generic machine-learning inference on features of heterogeneous effects in randomized experiments (best linear predictors, sorted group average effects, characteristics of most and least affected units), using repeated data splitting and quantile aggregation.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "chernozhukov_2026_longstory",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Chernozhukov",
+    "given": "Victor"
+   },
+   {
+    "family": "Cinelli",
+    "given": "Carlos"
+   },
+   {
+    "family": "Newey",
+    "given": "Whitney K."
+   },
+   {
+    "family": "Sharma",
+    "given": "Amit"
+   },
+   {
+    "family": "Syrgkanis",
+    "given": "Vasilis"
+   }
+  ],
+  "year": 2026,
+  "title": "Long Story Short: Omitted Variable Bias in Causal Machine Learning",
+  "container": "Review of Economics and Statistics",
+  "volume": "",
+  "issue": "",
+  "pages": "1-45",
+  "article_number": "",
+  "publisher": "MIT Press",
+  "doi": "10.1162/rest.a.1705",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Develops a general theory of omitted variable bias for causal parameters estimated with machine learning, showing that plausibility judgments on the maximum explanatory power of omitted variables are sufficient to bound the bias, with accompanying inference methods.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "savolainen_2011_review",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Savolainen",
+    "given": "Peter T."
+   },
+   {
+    "family": "Mannering",
+    "given": "Fred L."
+   },
+   {
+    "family": "Lord",
+    "given": "Dominique"
+   },
+   {
+    "family": "Quddus",
+    "given": "Mohammed A."
+   }
+  ],
+  "year": 2011,
+  "title": "The statistical analysis of highway crash-injury severities: A review and assessment of methodological alternatives",
+  "container": "Accident Analysis & Prevention",
+  "volume": "43",
+  "issue": "5",
+  "pages": "1666-1676",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.aap.2011.03.025",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 6,
+  "summary": "Summarises the evolution of research and current thinking on the statistical analysis of motor-vehicle crash-injury severities and discusses future methodological directions.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "mannering_2016_heterogeneity",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Mannering",
+    "given": "Fred L."
+   },
+   {
+    "family": "Shankar",
+    "given": "Venky"
+   },
+   {
+    "family": "Bhat",
+    "given": "Chandra R."
+   }
+  ],
+  "year": 2016,
+  "title": "Unobserved heterogeneity and the statistical analysis of highway accident data",
+  "container": "Analytic Methods in Accident Research",
+  "volume": "11",
+  "issue": "",
+  "pages": "1-16",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.amar.2016.04.001",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 6,
+  "summary": "Addresses unobserved heterogeneity in the statistical analysis of highway accident data.",
+  "summary_basis": "title only",
+  "priority": "core"
+ },
+ {
+  "key": "mannering_2018_instability",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Mannering",
+    "given": "Fred"
+   }
+  ],
+  "year": 2018,
+  "title": "Temporal instability and the analysis of highway accident data",
+  "container": "Analytic Methods in Accident Research",
+  "volume": "17",
+  "issue": "",
+  "pages": "1-13",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.amar.2017.10.002",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 6,
+  "summary": "Addresses temporal instability in the analysis of highway accident data.",
+  "summary_basis": "title only",
+  "priority": "core"
+ },
+ {
+  "key": "mannering_2020_bigdata",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Mannering",
+    "given": "Fred"
+   },
+   {
+    "family": "Bhat",
+    "given": "Chandra R."
+   },
+   {
+    "family": "Shankar",
+    "given": "Venky"
+   },
+   {
+    "family": "Abdel-Aty",
+    "given": "Mohamed"
+   }
+  ],
+  "year": 2020,
+  "title": "Big data, traditional data and the tradeoffs between prediction and causality in highway-safety analysis",
+  "container": "Analytic Methods in Accident Research",
+  "volume": "25",
+  "issue": "",
+  "pages": "",
+  "article_number": "100113",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.amar.2020.100113",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 6,
+  "summary": "Discusses the trade-off between predictive capability and the ability to uncover causality across traditional, advanced statistical and data-driven methods in highway safety, noting that data from observed crashes can over-represent inherently riskier individuals.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "zhang_2022_grf",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Zhang",
+    "given": "Yingheng"
+   },
+   {
+    "family": "Li",
+    "given": "Haojie"
+   },
+   {
+    "family": "Ren",
+    "given": "Gang"
+   }
+  ],
+  "year": 2022,
+  "title": "Estimating heterogeneous treatment effects in road safety analysis using generalized random forests",
+  "container": "Accident Analysis & Prevention",
+  "volume": "165",
+  "issue": "",
+  "pages": "",
+  "article_number": "106507",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.aap.2021.106507",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 6,
+  "summary": "Introduces generalized random forests for heterogeneous treatment effects in road safety, compares them in simulations with outcome regression, propensity score and doubly robust methods, and applies them to the UK speed camera programme.",
+  "summary_basis": "abstract",
+  "priority": "supplementary"
+ },
+ {
+  "key": "graham_2025_causal",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Graham",
+    "given": "Daniel J."
+   }
+  ],
+  "year": 2025,
+  "title": "Causal inference for transport research",
+  "container": "Transportation Research Part A: Policy and Practice",
+  "volume": "192",
+  "issue": "",
+  "pages": "",
+  "article_number": "104324",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.tra.2024.104324",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 6,
+  "summary": "Consolidated overview of causal inference for transport research based on potential outcomes, with core estimation methods, case-study simulations and R code.",
+  "summary_basis": "abstract",
+  "priority": "supplementary"
+ },
+ {
+  "key": "metzpeeters_2025_speedlimits",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Metz-Peeters",
+    "given": "Maike"
+   }
+  ],
+  "year": 2025,
+  "title": "Mandatory speed limits and crash frequency on motorways — A causal machine learning approach",
+  "container": "Transportation Research Part A: Policy and Practice",
+  "volume": "200",
+  "issue": "",
+  "pages": "",
+  "article_number": "104616",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.tra.2025.104616",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 6,
+  "summary": "Applies a causal forest to estimate the effects of mandatory speed limits on injury crash frequencies on German motorway segments and examines bias from spatial overfitting.",
+  "summary_basis": "abstract",
+  "priority": "supplementary"
+ },
+ {
+  "key": "chen_2026_pedestrian",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Chen",
+    "given": "Zijun"
+   },
+   {
+    "family": "Zhang",
+    "given": "Guopeng"
+   },
+   {
+    "family": "Wei",
+    "given": "Shuwu"
+   },
+   {
+    "family": "Li",
+    "given": "Lin"
+   },
+   {
+    "family": "Shi",
+    "given": "Jizhong"
+   }
+  ],
+  "year": 2026,
+  "title": "Exploring the causal effects of hazardous driving behaviors on pedestrian-vehicle crash injury severity based on causal machine learning",
+  "container": "International Journal of Injury Control and Safety Promotion",
+  "volume": "",
+  "issue": "",
+  "pages": "1-17",
+  "article_number": "",
+  "publisher": "Informa UK Limited",
+  "doi": "10.1080/17457300.2026.2690604",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 6,
+  "summary": "Uses causal machine learning together with SHAP and a causal tree to study the effects of hazardous driving behaviours on pedestrian injury severity in pedestrian-vehicle crashes, reporting heterogeneous conditional average treatment effects.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "ogbonnia_2026_causalmlreview",
+  "type": "inproceedings",
+  "authors": [
+   {
+    "family": "Ogbonnia",
+    "given": "Emmanuel"
+   },
+   {
+    "family": "Ojerinde",
+    "given": "Oluwaseun Adeniyi"
+   },
+   {
+    "family": "Aminu",
+    "given": "Enesi Femi"
+   },
+   {
+    "family": "Alabi",
+    "given": "Isiaq"
+   },
+   {
+    "family": "Adepoju",
+    "given": "Solomon A."
+   },
+   {
+    "family": "Dorcas",
+    "given": "Mitong"
+   }
+  ],
+  "year": 2026,
+  "title": "A Systematic Review of Causal Machine Learning Approaches in Road Crash Analysis",
+  "container": "Proceedings of IndabaX Nigeria 2026: Building Scalable AI That Works: From Research to Deployment in Resource-Constrained Environments (Proceedings of Machine Learning Research)",
+  "volume": "319",
+  "issue": "",
+  "pages": "382-405",
+  "article_number": "",
+  "publisher": "PMLR",
+  "doi": "",
+  "url": "https://proceedings.mlr.press/v319/ogbonnia26a.html",
+  "verified_via": "official proceedings page",
+  "verified_on": "2026-11-11",
+  "topic": 6,
+  "summary": "PRISMA review of 35 articles (2021-2025) classified as predictive, interpretable or causal ML; most remain predictive ensembles or explainability tools such as SHAP, and the gaps named include the continued conflation of predictive feature importance with causal effect and the absence of standardised causal benchmarks.",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "hernan_2004_selection",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Hernán",
+    "given": "Miguel A."
+   },
+   {
+    "family": "Hernández-Díaz",
+    "given": "Sonia"
+   },
+   {
+    "family": "Robins",
+    "given": "James M."
+   }
+  ],
+  "year": 2004,
+  "title": "A Structural Approach to Selection Bias",
+  "container": "Epidemiology",
+  "volume": "15",
+  "issue": "5",
+  "pages": "615-625",
+  "article_number": "",
+  "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+  "doi": "10.1097/01.ede.0000135174.63482.43",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 7,
+  "summary": "Argues that the various forms of selection bias share one causal structure: conditioning on a common effect of two variables, one related to exposure and the other to the outcome.",
+  "summary_basis": "abstract",
+  "priority": "supplementary"
+ },
+ {
+  "key": "yamamoto_2008_underreporting",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Yamamoto",
+    "given": "Toshiyuki"
+   },
+   {
+    "family": "Hashiji",
+    "given": "Junpei"
+   },
+   {
+    "family": "Shankar",
+    "given": "Venkataraman N."
+   }
+  ],
+  "year": 2008,
+  "title": "Underreporting in traffic accident data, bias in parameters and the structure of injury severity models",
+  "container": "Accident Analysis & Prevention",
+  "volume": "40",
+  "issue": "4",
+  "pages": "1320-1329",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.aap.2007.10.016",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 7,
+  "summary": "Treats traffic accident data as outcome-based samples in which higher severities are over-represented because of underreporting, and shows that this biases parameters of injury severity models, including the effect of safety belt use.",
+  "summary_basis": "abstract",
+  "priority": "supplementary"
+ },
+ {
+  "key": "nosek_2018_preregistration",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Nosek",
+    "given": "Brian A."
+   },
+   {
+    "family": "Ebersole",
+    "given": "Charles R."
+   },
+   {
+    "family": "DeHaven",
+    "given": "Alexander C."
+   },
+   {
+    "family": "Mellor",
+    "given": "David T."
+   }
+  ],
+  "year": 2018,
+  "title": "The preregistration revolution",
+  "container": "Proceedings of the National Academy of Sciences",
+  "volume": "115",
+  "issue": "11",
+  "pages": "2600-2606",
+  "article_number": "",
+  "publisher": "National Academy of Sciences",
+  "doi": "10.1073/pnas.1708274114",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 7,
+  "summary": "Makes the case for preregistration (defining research questions and the analysis plan before observing outcomes) to separate prediction from postdiction, and discusses strategies for cases such as preexisting data.",
+  "summary_basis": "abstract",
+  "priority": "supplementary"
+ },
+ {
+  "key": "cinelli_2024_controls",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Cinelli",
+    "given": "Carlos"
+   },
+   {
+    "family": "Forney",
+    "given": "Andrew"
+   },
+   {
+    "family": "Pearl",
+    "given": "Judea"
+   }
+  ],
+  "year": 2024,
+  "title": "A Crash Course in Good and Bad Controls",
+  "container": "Sociological Methods & Research",
+  "volume": "53",
+  "issue": "3",
+  "pages": "1071-1104",
+  "article_number": "",
+  "publisher": "SAGE Publications",
+  "doi": "10.1177/00491241221099552",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 7,
+  "summary": "Describes graphical tools, through illustrative examples, for deciding when adding a variable to a regression helps or harms the causal interpretation of a coefficient (the 'bad control' problem).",
+  "summary_basis": "abstract",
+  "priority": "core"
+ },
+ {
+  "key": "islam_2025_injurybias",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Islam",
+    "given": "Mouyid"
+   },
+   {
+    "family": "Mannering",
+    "given": "Fred"
+   }
+  ],
+  "year": 2025,
+  "title": "A note on observed injury bias in police-reported pre-crash travel speed estimates",
+  "container": "Analytic Methods in Accident Research",
+  "volume": "48",
+  "issue": "",
+  "pages": "",
+  "article_number": "100407",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.amar.2025.100407",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 7,
+  "summary": "A note on observed injury bias in police-reported pre-crash travel speed estimates.",
+  "summary_basis": "title only",
+  "priority": "supplementary"
+ }
+]

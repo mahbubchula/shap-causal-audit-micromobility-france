@@ -1,0 +1,33 @@
+\begin{table}[tp]
+\centering\small
+\caption{Inference diagnostics for the double machine learning estimates, all riders}\label{tab:table6}
+\begin{threeparttable}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lp{4.2cm}rrrrrrrrr}
+\toprule
+ID & Contrast & SE, clustered (pp) & SE, unclustered (pp) & Ratio & p & q & Propensity AUC & Outside trimming bounds (\%) & RVa (\%) & Bounds under 3\% confounding (pp) \\
+\midrule
+A1 & E-scooter vs. bicycle & 0.63 & 0.60 & 1.04 & $<$0.001 & 0.002 & 0.805 & 0.0 & 0.7 & $-$2.3 to 6.5 \\
+A2 & E-bike vs. bicycle & 1.04 & 0.92 & 1.13 & $<$0.001 & $<$0.001 & 0.698 & 0.0 & 2.4 & 0.6 to 9.6 \\
+D1 & Age 65 or over vs. 25–64 & 3.30 & 0.94 & 3.52 & $<$0.001 & $<$0.001 & 0.808 & 0.0 & 6.2 & 7.5 to 18.3 \\
+D2 & Male vs. female & 0.50 & 0.49 & 1.02 & $<$0.001 & $<$0.001 & 0.647 & 0.0 & 1.3 & $-$0.8 to 4.9 \\
+B1 & Speed limit $\leq$30 vs. 50 km/h (urban) & 0.73 & 0.55 & 1.32 & 0.005 & 0.011 & 0.834 & 0.0 & 1.1 & $-$5.2 to 1.2 \\
+B4 & Reserved cycle facility vs. none & 0.79 & 0.59 & 1.33 & 0.005 & 0.011 & 0.824 & 0.1 & 0.9 & $-$6.2 to 1.8 \\
+B5 & Intersection vs. no intersection & 0.42 & 0.42 & 0.98 & 0.650 & 0.776 & 0.756 & 0.3 & 0.0 & $-$3.3 to 2.9 \\
+B2 & Night without vs. with working street lighting & 3.69 & 2.63 & 1.40 & 0.700 & 0.792 & 0.806 & 0.3 & 0.0 & $-$2.0 to 4.9 \\
+B3 & Adverse weather or non-dry surface vs. normal and dry & 0.99 & 0.73 & 1.36 & 0.895 & 0.921 & 0.745 & 0.0 & 0.0 & $-$4.2 to 3.9 \\
+B6 & Urban vs. outside urban area & 4.60 & 0.87 & 5.28 & $<$0.001 & $<$0.001 & 0.864 & 32.6 & 10.7 & $-$35.4 to $-$21.0 \\
+C1 & Heavy-vehicle vs. car opponent & 2.17 & 1.69 & 1.28 & $<$0.001 & $<$0.001 & 0.703 & 0.0 & 7.3 & 11.7 to 23.4 \\
+C2 & Single-vehicle crash vs. collision with a motor vehicle & 2.08 & 0.89 & 2.33 & $<$0.001 & $<$0.001 & 0.840 & 0.0 & 5.3 & 6.3 to 18.7 \\
+C3 & Cycle path vs. roadway & 1.19 & 0.86 & 1.39 & $<$0.001 & $<$0.001 & 0.928 & 2.8 & 1.2 & $-$12.2 to 3.1 \\
+R10 & Placebo: even vs. odd day of the month & 0.37 & 0.35 & 1.07 & 0.413 & – & 0.511 & 0.0 & 0.0 & $-$2.6 to 2.0 \\
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}[flushleft]\footnotesize
+\item Point estimates and 95\% confidence intervals are given in Figure 7a. SE, standard error in percentage points (pp), clustered by département or unclustered; q, Benjamini–Hochberg false discovery rate across the 43 estimates of the main analysis.
+\item Propensity AUC is the cross-fitted discrimination of the model for group membership. Outside trimming bounds is the share of riders with an estimated propensity score below 0.02 or above 0.98.
+\item RVa is the robustness value for statistical significance: the share of residual variation in both the factor and the outcome that an unobserved confounder would need to explain for the 95\% confidence interval to include zero. Bounds are the range of the estimate if such a confounder explained 3\% of each. Robustness values for the point estimate are given in Figure 10d.
+\item B6 does not satisfy the overlap condition (33\% of propensity scores outside the trimming bounds); its estimate, $-$28.2 ($-$37.2 to $-$19.2), is not interpreted. The placebo estimate is $-$0.3 ($-$1.0 to 0.4).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

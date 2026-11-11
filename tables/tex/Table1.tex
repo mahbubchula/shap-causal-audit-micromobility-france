@@ -1,0 +1,22 @@
+\begin{table}[tp]
+\centering\small
+\caption{Data sources: the four annual files of the French national police crash database (BAAC), 2019–2025}\label{tab:table1}
+\begin{threeparttable}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{2.2cm}p{3.6cm}rp{7.2cm}}
+\toprule
+File & Unit of observation & Records, 2019–2025 & Variables used \\
+\midrule
+Characteristics & Crash & 382,721 & Date and time, lighting, weather, département, urban area, intersection type, collision type \\
+Locations & Road record (one per crash until 2022; one or more from 2023) & 430,628 & Road category, traffic regime, number of lanes, reserved lane, gradient, alignment, infrastructure, position of the crash, surface condition, speed limit \\
+Vehicles & Vehicle & 653,712 & Vehicle category, maneuver before the crash, fixed and mobile obstacle struck, point of initial impact \\
+Users & Person & 871,534 & Role, injury severity, sex, year of birth, trip purpose, safety equipment \\
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}[flushleft]\footnotesize
+\item Source: Observatoire national interministériel de la sécurité routière, open data portal data.gouv.fr, Licence Ouverte 2.0.
+\item Files are linked on the crash identifier; users are linked to vehicles on the vehicle identifier. 
+\item Derivation of the analysis sample: 382,721 injury crashes involving any road user; 55,909 micromobility vehicles; 54,580 bicycles, e-bikes or e-scooters; 52,722 in mainland France; 52,510 with the injury level of the rider recorded; 46,920 riders in crashes from 2020 to 2025.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

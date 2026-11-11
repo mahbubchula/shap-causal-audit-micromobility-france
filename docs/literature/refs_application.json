@@ -1,0 +1,1969 @@
+[
+ {
+  "key": "cicchino_2021_tripseverity",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Cicchino",
+    "given": "Jessica B."
+   },
+   {
+    "family": "Kulie",
+    "given": "Paige E."
+   },
+   {
+    "family": "McCarthy",
+    "given": "Melissa L."
+   }
+  ],
+  "year": 2021,
+  "title": "Severity of e-scooter rider injuries associated with trip characteristics",
+  "container": "Journal of Safety Research",
+  "volume": "76",
+  "issue": "",
+  "pages": "256-261",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.jsr.2020.12.016",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 1,
+  "summary": "Interview and chart-review study of 105 adults injured while riding e-scooters and treated at a Washington, DC, emergency department in 2019: riders injured on the road were about twice as likely as those injured elsewhere to sustain AIS >= 2 injuries (RR 1.96), although most injuries happened on the sidewalk (58%).",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "USA (Washington, DC); hospital emergency-department data"
+ },
+ {
+  "key": "stray_2022_oslo",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Stray",
+    "given": "August Vincent"
+   },
+   {
+    "family": "Siverts",
+    "given": "Henrik"
+   },
+   {
+    "family": "Melhuus",
+    "given": "Knut"
+   },
+   {
+    "family": "Enger",
+    "given": "Martine"
+   },
+   {
+    "family": "Galteland",
+    "given": "Pål"
+   },
+   {
+    "family": "Næss",
+    "given": "Ingar"
+   },
+   {
+    "family": "Helseth",
+    "given": "Eirik"
+   },
+   {
+    "family": "Ramm-Pettersen",
+    "given": "Jon"
+   }
+  ],
+  "year": 2022,
+  "title": "Characteristics of electric scooter and bicycle injuries after introduction of electric scooter rentals in Oslo, Norway",
+  "container": "JAMA Network Open",
+  "volume": "5",
+  "issue": "8",
+  "pages": "",
+  "article_number": "e2226701",
+  "publisher": "American Medical Association (AMA)",
+  "doi": "10.1001/jamanetworkopen.2022.26701",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 1,
+  "summary": "Prospective Oslo emergency-department cohort (January 2019 to March 2020; 850 e-scooter riders, 2,341 bicyclists): injured e-scooter riders were younger, far more often intoxicated (39.5% vs 7.7%), rarely helmeted (2.1% vs 62.2%) and more often injured in the evening or at night, with more head and neck injuries than bicyclists.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "Norway (Oslo); hospital emergency-department data"
+ },
+ {
+  "key": "seitakari_2025_helsinki",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Seitakari",
+    "given": "Laura"
+   },
+   {
+    "family": "Pakarinen",
+    "given": "Oskari"
+   },
+   {
+    "family": "Harjola",
+    "given": "Veli-Pekka"
+   },
+   {
+    "family": "Castrén",
+    "given": "Maaret"
+   },
+   {
+    "family": "Vasara",
+    "given": "Henri"
+   }
+  ],
+  "year": 2025,
+  "title": "Comparing the characteristics of electric scooter and bicycle injuries: a retrospective cohort study",
+  "container": "Scientific Reports",
+  "volume": "15",
+  "issue": "1",
+  "pages": "",
+  "article_number": "27599",
+  "publisher": "Springer Science and Business Media LLC",
+  "doi": "10.1038/s41598-025-12627-x",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 1,
+  "summary": "Helsinki register study for 2022-2023 (677 e-scooter and 1,889 bicycle accidents treated in emergency departments): incidence was 7.8 vs 2.2 per 100,000 trips (relative risk 3.6), and e-scooter riders were more often intoxicated (29% vs 8%), less often helmeted (4% vs 28%) and more often had head injuries (46% vs 31%).",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "Finland (Helsinki); hospital emergency-department data with trip exposure"
+ },
+ {
+  "key": "zhao_2026_england",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Zhao",
+    "given": "Jingjing"
+   },
+   {
+    "family": "Konstantinoudis",
+    "given": "Garyfallos"
+   },
+   {
+    "family": "Heydari",
+    "given": "Shahram"
+   }
+  ],
+  "year": 2026,
+  "title": "England-wide injury-severity analysis of e-scooter riders using a Bayesian spatial field model",
+  "container": "Accident Analysis & Prevention",
+  "volume": "232",
+  "issue": "",
+  "pages": "",
+  "article_number": "108517",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.aap.2026.108517",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 1,
+  "summary": "Bayesian spatial field model of 2,128 crashes involving e-scooters and motor vehicles across England (2020-2023): severe or fatal rider injury was more likely for older and male riders, in darkness, on roads with speed limits of 40 mph or higher and when heavy vehicles were involved; authorised rental trials were not associated with severity.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "England; crashes involving e-scooters and motor vehicles, 2020-2023 (data source not named in the abstract)"
+ },
+ {
+  "key": "pervez_2025_shap",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Pervez",
+    "given": "Amjad"
+   },
+   {
+    "family": "Jamal",
+    "given": "Arshad"
+   }
+  ],
+  "year": 2025,
+  "title": "Exploring e-scooter risk factors based on interpretable machine learning framework",
+  "container": "Journal of Safety Research",
+  "volume": "94",
+  "issue": "",
+  "pages": "128-140",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.jsr.2025.06.011",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 1,
+  "summary": "LightGBM with SHAP applied to 2,400 e-scooter crash records from the UK STATS19 database: the main factors for injury severity were number of vehicles involved, first point of impact, rider gender, lighting conditions, pedestrian crossings and road type, with higher speed limits, single carriageways and wet surfaces raising the likelihood of severe injury.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "United Kingdom; police data (STATS19)"
+ },
+ {
+  "key": "fountas_2026_latentclass",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Fountas",
+    "given": "Grigorios"
+   },
+   {
+    "family": "Fonzone",
+    "given": "Achille"
+   },
+   {
+    "family": "Demiris",
+    "given": "Athanasios"
+   },
+   {
+    "family": "Sheykhfard",
+    "given": "Abbas"
+   },
+   {
+    "family": "Basbas",
+    "given": "Socrates"
+   }
+  ],
+  "year": 2026,
+  "title": "Unveiling the determinants of crash injury severities in e-scooter crashes: A latent class binary logit analysis of single and multiple-vehicle crashes",
+  "container": "Journal of Cycling and Micromobility Research",
+  "volume": "8",
+  "issue": "",
+  "pages": "",
+  "article_number": "100116",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.jcmr.2026.100116",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 1,
+  "summary": "Latent class binary logit models of police-recorded e-scooter crashes in the UK (STATS19), estimated separately for single- and multiple-vehicle crashes: rider age and gender define the latent classes, and lighting conditions affect severity in both crash types with effects that differ across classes.",
+  "summary_basis": "abstract",
+  "abstract_source": "OpenAlex",
+  "country_data": "United Kingdom; police data (STATS19)"
+ },
+ {
+  "key": "pai_2026_fatal",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Pai",
+    "given": "Rahul Rajendra"
+   },
+   {
+    "family": "Fredriksson",
+    "given": "Rikard"
+   },
+   {
+    "family": "Dozza",
+    "given": "Marco"
+   }
+  ],
+  "year": 2026,
+  "title": "Three modes, three profiles: Characterizing fatal crashes on e-scooters, e-bikes, and conventional bicycles in Sweden",
+  "container": "Journal of Safety Research",
+  "volume": "97",
+  "issue": "",
+  "pages": "533-542",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.jsr.2026.05.001",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 1,
+  "summary": "In-depth analysis of all fatal crashes of conventional bicyclists (n = 152), e-bike riders (n = 34) and e-scooter riders (n = 18) in Sweden, 2016-2024: bicyclist deaths involved old riders (median age 71) in multi-road-user crashes, whereas e-scooter deaths were mostly single-rider crashes at night and on weekends with frequent alcohol intoxication (44.4%), and two thirds occurred on privately owned devices.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "Sweden; national in-depth fatal crash database"
+ },
+ {
+  "key": "schepers_2014_ebike",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Schepers",
+    "given": "J.P."
+   },
+   {
+    "family": "Fishman",
+    "given": "E."
+   },
+   {
+    "family": "den Hertog",
+    "given": "P."
+   },
+   {
+    "family": "Wolt",
+    "given": "K. Klein"
+   },
+   {
+    "family": "Schwab",
+    "given": "A.L."
+   }
+  ],
+  "year": 2014,
+  "title": "The safety of electrically assisted bicycles compared to classic bicycles",
+  "container": "Accident Analysis & Prevention",
+  "volume": "73",
+  "issue": "",
+  "pages": "174-180",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.aap.2014.09.010",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 2,
+  "summary": "Dutch case-control study based on a survey of crash victims treated at emergency departments and a population control panel: after controlling for age, gender and amount of bicycle use, e-bike users were more likely to have a crash needing emergency treatment, but crashes were about equally severe (hospitalised vs sent home) as with classic bicycles.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "Netherlands; emergency-department survey data with population controls"
+ },
+ {
+  "key": "schepers_2020_health",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Schepers",
+    "given": "Paul"
+   },
+   {
+    "family": "Klein Wolt",
+    "given": "Karin"
+   },
+   {
+    "family": "Helbich",
+    "given": "Marco"
+   },
+   {
+    "family": "Fishman",
+    "given": "Elliot"
+   }
+  ],
+  "year": 2020,
+  "title": "Safety of e-bikes compared to conventional bicycles: What role does cyclists’ health condition play?",
+  "container": "Journal of Transport & Health",
+  "volume": "19",
+  "issue": "",
+  "pages": "",
+  "article_number": "100961",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.jth.2020.100961",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 2,
+  "summary": "Dutch case-control study (2,383 emergency-department casualties, 1,860 controls): after adjusting for bicycle use and health status, e-bike users were not more likely to crash or to sustain more severe injuries than conventional cyclists, except older women, who had an elevated risk and more severe injuries on e-bikes.",
+  "summary_basis": "abstract",
+  "abstract_source": "Semantic Scholar",
+  "country_data": "Netherlands; emergency-department survey data with population controls"
+ },
+ {
+  "key": "westerhuis_2024_ebikerisk",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Westerhuis",
+    "given": "Frank"
+   },
+   {
+    "family": "Nuñez Velasco",
+    "given": "Pablo"
+   },
+   {
+    "family": "Schepers",
+    "given": "Paul"
+   },
+   {
+    "family": "de Waard",
+    "given": "Dick"
+   }
+  ],
+  "year": 2024,
+  "title": "Do electric bicycles cause an increased injury risk compared to conventional bicycles? The potential impact of data visualisations and corresponding conclusions",
+  "container": "Accident Analysis & Prevention",
+  "volume": "195",
+  "issue": "",
+  "pages": "",
+  "article_number": "107398",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.aap.2023.107398",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 2,
+  "summary": "Using Dutch fatality numbers as an example, shows that the apparent excess risk of e-bikes may be explained by age, exposure, health and gender of the cyclist, and that including or excluding these factors leads to very different conclusions about the relative risk of electric versus conventional bicycles.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "Netherlands; fatality statistics"
+ },
+ {
+  "key": "fyhri_2026_relativerisk",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Fyhri",
+    "given": "Aslak"
+   },
+   {
+    "family": "Bjørnskau",
+    "given": "Torkel"
+   },
+   {
+    "family": "Siverts",
+    "given": "Henrik"
+   }
+  ],
+  "year": 2026,
+  "title": "Relative injury risk of e-bikes and conventional bicycles",
+  "container": "Findings",
+  "volume": "",
+  "issue": "",
+  "pages": "",
+  "article_number": "",
+  "publisher": "Network Design Lab - Transport Findings",
+  "doi": "10.32866/001c.157852",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 2,
+  "summary": "Combines 1,585 medically treated cyclist injuries from the Oslo emergency ward (2023) with distance exposure from the national travel survey: distance-adjusted injury risk was lower overall for e-bikes than for conventional bicycles, but the lower risk was not evident in winter.",
+  "summary_basis": "abstract",
+  "abstract_source": "Crossref",
+  "country_data": "Norway (Oslo); emergency-ward injury data with travel-survey exposure"
+ },
+ {
+  "key": "ozman_2026_traumaregister",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Özman",
+    "given": "Deniz D."
+   },
+   {
+    "family": "Roth",
+    "given": "Sabine M. I."
+   },
+   {
+    "family": "Fois",
+    "given": "Maria Gabriella"
+   },
+   {
+    "family": "Diehr",
+    "given": "Luca"
+   },
+   {
+    "family": "Teuben",
+    "given": "Michel P. J."
+   },
+   {
+    "family": "Zhang",
+    "given": "Huanglin"
+   },
+   {
+    "family": "Praster",
+    "given": "Max"
+   },
+   {
+    "family": "Berk",
+    "given": "Till"
+   },
+   {
+    "family": "Hildebrand",
+    "given": "Frank"
+   },
+   {
+    "family": "Groven",
+    "given": "Rald V. M."
+   }
+  ],
+  "year": 2026,
+  "title": "Increased injury severity and age-related mortality in trauma victims after e-bike versus conventional bicycle accidents: a concerning call to action!",
+  "container": "Patient Safety in Surgery",
+  "volume": "20",
+  "issue": "1",
+  "pages": "",
+  "article_number": "25",
+  "publisher": "Springer Science and Business Media LLC",
+  "doi": "10.1186/s13037-026-00494-y",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 2,
+  "summary": "TraumaRegister DGU analysis of 9,170 severely injured (AIS >= 3) cyclists, 2020-2023 (1,160 e-bike, 8,010 conventional bicycle): e-bike riders were older (median 63 vs 57 years), more often had polytrauma (16.7% vs 12.3%), head injuries and intensive-care treatment, and mortality rose with age from 2.7% (16-59 years) to 18.6% (80 years and over).",
+  "summary_basis": "abstract",
+  "abstract_source": "Crossref",
+  "country_data": "TraumaRegister DGU (German Trauma Society registry); hospital trauma-registry data"
+ },
+ {
+  "key": "kaplan_2014_denmark",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Kaplan",
+    "given": "Sigal"
+   },
+   {
+    "family": "Vavatsoulas",
+    "given": "Konstantinos"
+   },
+   {
+    "family": "Prato",
+    "given": "Carlo Giacomo"
+   }
+  ],
+  "year": 2014,
+  "title": "Aggravating and mitigating factors associated with cyclist injury severity in Denmark",
+  "container": "Journal of Safety Research",
+  "volume": "50",
+  "issue": "",
+  "pages": "75-82",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.jsr.2014.03.012",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 3,
+  "summary": "Generalised ordered logit model of cyclist injury severity in Danish crashes between a cyclist and a collision partner (2007-2011): age over 60, intoxication, speed limits above 70-80 km/h, slippery surfaces and heavy-vehicle involvement aggravate severity, while helmet use, availability of cycling paths and dense urban development mitigate it.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "Denmark; crash records 2007-2011"
+ },
+ {
+  "key": "kim_2007_bicyclist",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Kim",
+    "given": "Joon-Ki"
+   },
+   {
+    "family": "Kim",
+    "given": "Sungyop"
+   },
+   {
+    "family": "Ulfarsson",
+    "given": "Gudmundur F."
+   },
+   {
+    "family": "Porrello",
+    "given": "Luis A."
+   }
+  ],
+  "year": 2007,
+  "title": "Bicyclist injury severities in bicycle–motor vehicle accidents",
+  "container": "Accident Analysis & Prevention",
+  "volume": "39",
+  "issue": "2",
+  "pages": "238-251",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.aap.2006.07.002",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 3,
+  "summary": "Multinomial logit model of police-reported bicycle-motor vehicle crashes in North Carolina (1997-2002): inclement weather, darkness with no streetlights, truck involvement, vehicle speeds above 30 mph and bicyclist age 55 or over each more than doubled the probability of a fatal injury.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "USA (North Carolina); police data"
+ },
+ {
+  "key": "aldred_2019_spain",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Aldred",
+    "given": "Rachel"
+   },
+   {
+    "family": "García-Herrero",
+    "given": "Susana"
+   },
+   {
+    "family": "Anaya",
+    "given": "Esther"
+   },
+   {
+    "family": "Herrera",
+    "given": "Sixto"
+   },
+   {
+    "family": "Mariscal",
+    "given": "Miguel Ángel"
+   }
+  ],
+  "year": 2019,
+  "title": "Cyclist injury severity in Spain: a Bayesian analysis of police road injury data focusing on involved vehicles and route environment",
+  "container": "International Journal of Environmental Research and Public Health",
+  "volume": "17",
+  "issue": "1",
+  "pages": "",
+  "article_number": "96",
+  "publisher": "MDPI AG",
+  "doi": "10.3390/ijerph17010096",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 3,
+  "summary": "Bayesian analysis of 2016 Spanish police data (7,230 injured cyclists): killed-or-seriously-injured outcomes were more likely when a heavy goods vehicle was involved and less likely with bicycle infrastructure, 30 km/h zones and urban zones.",
+  "summary_basis": "abstract",
+  "abstract_source": "Crossref",
+  "country_data": "Spain; police data"
+ },
+ {
+  "key": "barbour_2024_gender",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Barbour",
+    "given": "Natalia"
+   },
+   {
+    "family": "Abdel-Aty",
+    "given": "Mohamed"
+   }
+  ],
+  "year": 2024,
+  "title": "Rethinking cycling safety: The role of gender in cyclist crash injury severity outcomes",
+  "container": "Analytic Methods in Accident Research",
+  "volume": "44",
+  "issue": "",
+  "pages": "",
+  "article_number": "100349",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.amar.2024.100349",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 3,
+  "summary": "Examines the role of gender in cyclist crash injury-severity outcomes (summary limited to the title; no abstract could be read from Crossref, PubMed or Semantic Scholar).",
+  "summary_basis": "title only",
+  "abstract_source": "none",
+  "country_data": ""
+ },
+ {
+  "key": "myhrmann_2021_singlebicycle",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Myhrmann",
+    "given": "Marcus Skyum"
+   },
+   {
+    "family": "Janstrup",
+    "given": "Kira Hyldekær"
+   },
+   {
+    "family": "Møller",
+    "given": "Mette"
+   },
+   {
+    "family": "Mabit",
+    "given": "Stefan Eriksen"
+   }
+  ],
+  "year": 2021,
+  "title": "Factors influencing the injury severity of single-bicycle crashes",
+  "container": "Accident Analysis & Prevention",
+  "volume": "149",
+  "issue": "",
+  "pages": "",
+  "article_number": "105875",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.aap.2020.105875",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 3,
+  "summary": "Latent class ordered probit model of single-bicycle crashes from medical records (2010-2015) combined with road-maintenance data: crashes on road sections were more severe than those on bicycle lanes, and crashes after dark and on low-volume roads were related to a higher probability of severe injury.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "Country not stated in the abstract (authors are based in Denmark); hospital medical records"
+ },
+ {
+  "key": "eriksson_2022_sweden",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Eriksson",
+    "given": "Jenny"
+   },
+   {
+    "family": "Niska",
+    "given": "Anna"
+   },
+   {
+    "family": "Forsman",
+    "given": "Åsa"
+   }
+  ],
+  "year": 2022,
+  "title": "Injured cyclists with focus on single-bicycle crashes and differences in injury severity in Sweden",
+  "container": "Accident Analysis & Prevention",
+  "volume": "165",
+  "issue": "",
+  "pages": "",
+  "article_number": "106510",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.aap.2021.106510",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 3,
+  "summary": "Swedish STRADA data on 105,836 injured cyclists (2010-2019; police and emergency-department records): among cyclists injured in single-bicycle crashes, the probability of MAIS 3+ injury was higher for those aged 45 or older, for males, without a helmet, and at intersections and road stretches compared with pedestrian and cycle paths.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "Sweden; linked police and hospital data (STRADA)"
+ },
+ {
+  "key": "isakssonhellman_2019_speedlimit",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Isaksson-Hellman",
+    "given": "Irene"
+   },
+   {
+    "family": "Töreki",
+    "given": "Josefin"
+   }
+  ],
+  "year": 2019,
+  "title": "The effect of speed limit reductions in urban areas on cyclists’ injuries in collisions with cars",
+  "container": "Traffic Injury Prevention",
+  "volume": "20",
+  "issue": "sup3",
+  "pages": "39-44",
+  "article_number": "",
+  "publisher": "Informa UK Limited",
+  "doi": "10.1080/15389588.2019.1680836",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 3,
+  "summary": "Swedish insurance-claim study of 1,953 bicycle-passenger car collisions (2005-2017): cyclists had a significantly lower risk of MAIS 2+ injury where the speed limit was 30-40 km/h rather than 50-60 km/h, and the risk fell by 25% over the decade in which many urban limits were lowered; no exposure or impact-speed data were available.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "Sweden; insurance claims data"
+ },
+ {
+  "key": "yannis_2024_30kmh",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Yannis",
+    "given": "George"
+   },
+   {
+    "family": "Michelaraki",
+    "given": "Eva"
+   }
+  ],
+  "year": 2024,
+  "title": "Review of city-wide 30 km/h speed limit benefits in Europe",
+  "container": "Sustainability",
+  "volume": "16",
+  "issue": "11",
+  "pages": "",
+  "article_number": "4382",
+  "publisher": "MDPI AG",
+  "doi": "10.3390/su16114382",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 3,
+  "summary": "PRISMA systematic review of city-wide 30 km/h speed limits in 40 European cities, including Brussels, Paris and Zurich: on average, road crashes, fatalities and injuries fell by 23%, 37% and 38% respectively after implementation.",
+  "summary_basis": "abstract",
+  "abstract_source": "Crossref",
+  "country_data": "Europe (40 cities); review"
+ },
+ {
+  "key": "cicchino_2020_bikelanes",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Cicchino",
+    "given": "Jessica B."
+   },
+   {
+    "family": "McCarthy",
+    "given": "Melissa L."
+   },
+   {
+    "family": "Newgard",
+    "given": "Craig D."
+   },
+   {
+    "family": "Wall",
+    "given": "Stephen P."
+   },
+   {
+    "family": "DiMaggio",
+    "given": "Charles J."
+   },
+   {
+    "family": "Kulie",
+    "given": "Paige E."
+   },
+   {
+    "family": "Arnold",
+    "given": "Brittany N."
+   },
+   {
+    "family": "Zuby",
+    "given": "David S."
+   }
+  ],
+  "year": 2020,
+  "title": "Not all protected bike lanes are the same: Infrastructure and risk of cyclist collisions and falls leading to emergency department visits in three U.S. cities",
+  "container": "Accident Analysis & Prevention",
+  "volume": "141",
+  "issue": "",
+  "pages": "",
+  "article_number": "105490",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.aap.2020.105490",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 3,
+  "summary": "Case-crossover study of 604 cyclists treated in emergency departments in Washington, DC, New York City and Portland (2015-2017): compared with major roads without bicycle facilities, crash or fall risk was lower on conventional bike lanes (adjusted OR 0.53), local roads and protected lanes with heavy separation (adjusted OR 0.10), but not on lightly separated protected lanes.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "USA (three cities); hospital emergency-department data"
+ },
+ {
+  "key": "amoros_2006_underreporting",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Amoros",
+    "given": "Emmanuelle"
+   },
+   {
+    "family": "Martin",
+    "given": "Jean-Louis"
+   },
+   {
+    "family": "Laumon",
+    "given": "Bernard"
+   }
+  ],
+  "year": 2006,
+  "title": "Under-reporting of road crash casualties in France",
+  "container": "Accident Analysis & Prevention",
+  "volume": "38",
+  "issue": "4",
+  "pages": "627-635",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.aap.2005.11.006",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "Record linkage of police data with the Rhone road trauma registry (1997-2001; 59,714 casualties): the police reporting rate was 37.7%, and under-reporting varied with injury severity (RR 0.35 for slightly vs severely injured), road user type, third-party involvement, road environment and type of police force.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "France (Rhone county); police data linked to a hospital-based road trauma registry"
+ },
+ {
+  "key": "amoros_2007_misclassification",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Amoros",
+    "given": "Emmanuelle"
+   },
+   {
+    "family": "Martin",
+    "given": "Jean-Louis"
+   },
+   {
+    "family": "Chiron",
+    "given": "Mireille"
+   },
+   {
+    "family": "Laumon",
+    "given": "Bernard"
+   }
+  ],
+  "year": 2007,
+  "title": "Road crash casualties: characteristics of police injury severity misclassification",
+  "container": "Journal of Trauma: Injury, Infection & Critical Care",
+  "volume": "62",
+  "issue": "2",
+  "pages": "482-490",
+  "article_number": "",
+  "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+  "doi": "10.1097/01.ta.0000202546.49273.f9",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "Linked police and Rhone trauma-registry data for 14,342 casualties (1997-2001): when the police 'serious/slight' classification was compared with the registry's NISS-based classification, kappa was 0.41, sensitivity 72% and positive predictive value 35%, and misclassification varied with road user type and type of police force.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "France (Rhone county); police data linked to a hospital-based road trauma registry"
+ },
+ {
+  "key": "shinar_2018_underreporting",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Shinar",
+    "given": "D."
+   },
+   {
+    "family": "Valero-Mora",
+    "given": "P."
+   },
+   {
+    "family": "van Strijp-Houtenbos",
+    "given": "M."
+   },
+   {
+    "family": "Haworth",
+    "given": "N."
+   },
+   {
+    "family": "Schramm",
+    "given": "A."
+   },
+   {
+    "family": "De Bruyne",
+    "given": "Guido"
+   },
+   {
+    "family": "Cavallo",
+    "given": "V."
+   },
+   {
+    "family": "Chliaoutakis",
+    "given": "J."
+   },
+   {
+    "family": "Dias",
+    "given": "J."
+   },
+   {
+    "family": "Ferraro",
+    "given": "O.E."
+   },
+   {
+    "family": "Fyhri",
+    "given": "A."
+   },
+   {
+    "family": "Sajatovic",
+    "given": "A. Hursa"
+   },
+   {
+    "family": "Kuklane",
+    "given": "K."
+   },
+   {
+    "family": "Ledesma",
+    "given": "R."
+   },
+   {
+    "family": "Mascarell",
+    "given": "O."
+   },
+   {
+    "family": "Morandi",
+    "given": "A."
+   },
+   {
+    "family": "Muser",
+    "given": "M."
+   },
+   {
+    "family": "Otte",
+    "given": "D."
+   },
+   {
+    "family": "Papadakaki",
+    "given": "M."
+   },
+   {
+    "family": "Sanmartín",
+    "given": "J."
+   },
+   {
+    "family": "Dulf",
+    "given": "D."
+   },
+   {
+    "family": "Saplioglu",
+    "given": "M."
+   },
+   {
+    "family": "Tzamalouka",
+    "given": "G."
+   }
+  ],
+  "year": 2018,
+  "title": "Under-reporting bicycle accidents to police in the COST TU1101 international survey: Cross-country comparisons and associated factors",
+  "container": "Accident Analysis & Prevention",
+  "volume": "110",
+  "issue": "",
+  "pages": "177-186",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.aap.2017.09.018",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "International survey of 7,015 adult cyclists in 17 countries (COST TU1101): on average only 10% of bicycle crashes were reported to the police (from 0% to 35% across countries), and reporting was associated with type of crash, type of vehicle involved and injury severity.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "17 countries; self-report survey"
+ },
+ {
+  "key": "yamamoto_2008_bias",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Yamamoto",
+    "given": "Toshiyuki"
+   },
+   {
+    "family": "Hashiji",
+    "given": "Junpei"
+   },
+   {
+    "family": "Shankar",
+    "given": "Venkataraman N."
+   }
+  ],
+  "year": 2008,
+  "title": "Underreporting in traffic accident data, bias in parameters and the structure of injury severity models",
+  "container": "Accident Analysis & Prevention",
+  "volume": "40",
+  "issue": "4",
+  "pages": "1320-1329",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.aap.2007.10.016",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "Treats under-reported crash data as outcome-based samples over-represented by higher severities and shows that ignoring under-reporting biases the parameters of injury-severity models, with the marginal impacts of several factors appearing overestimated.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "Country not stated in the abstract; traffic accident data"
+ },
+ {
+  "key": "bjornskau_2025_recyclist",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Bjørnskau",
+    "given": "Torkel"
+   },
+   {
+    "family": "Storesund Hesjevoll",
+    "given": "Ingeborg"
+   },
+   {
+    "family": "Ingebrigtsen",
+    "given": "Rikke"
+   },
+   {
+    "family": "Karlsen",
+    "given": "Katrine"
+   },
+   {
+    "family": "Pokorny",
+    "given": "Petr"
+   },
+   {
+    "family": "Sundfør",
+    "given": "Hanne Beate"
+   },
+   {
+    "family": "Weyde",
+    "given": "Kjell Vegard"
+   },
+   {
+    "family": "Mjåland",
+    "given": "Odd"
+   }
+  ],
+  "year": 2025,
+  "title": "What characterizes bicycle and e-scooter accidents not included in official accident statistics? Lessons learned from the ReCyCLIST project in Agder, Norway",
+  "container": "Traffic Safety Research",
+  "volume": "9",
+  "issue": "",
+  "pages": "",
+  "article_number": "e000108",
+  "publisher": "Dept. of Technology & Society, Faculty of Engineering, LTH, Lund University",
+  "doi": "10.55329/prfq7240",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "Self-reports collected through a digital tool in hospitals and clinics in Agder, Norway (June 2022 to April 2024): of 487 bicycle, e-bike and e-scooter incidents in traffic environments, 73% were single accidents, a type that official accident statistics largely overlook.",
+  "summary_basis": "abstract",
+  "abstract_source": "Crossref",
+  "country_data": "Norway (Agder); self-reports collected in hospitals and clinics"
+ },
+ {
+  "key": "kjaergaard_2024_hospitalpolice",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Kjærgaard",
+    "given": "Kristian"
+   },
+   {
+    "family": "Lauritsen",
+    "given": "Jens"
+   }
+  ],
+  "year": 2024,
+  "title": "Variation in traffic injury settings—same implication of hospital and police-based traffic injury data?",
+  "container": "Journal of Transport & Health",
+  "volume": "36",
+  "issue": "",
+  "pages": "",
+  "article_number": "101782",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.jth.2024.101782",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "Comparison of Odense University Hospital records with Funen police records for 21,562 injured road users (2015-2021): police severity classification was accurate in 50.5% of cases and captured only 15.1% of hospital-recorded severe incidents, and the most frequent severe-injury settings differed between sources (cyclist with no counterpart in hospital data, car collisions in police data).",
+  "summary_basis": "abstract",
+  "abstract_source": "OpenAlex",
+  "country_data": "Denmark (Funen); hospital records linked to police records"
+ },
+ {
+  "key": "dft_2023_escooterlinkage",
+  "type": "report",
+  "authors": [
+   {
+    "literal": "Department for Transport"
+   }
+  ],
+  "year": 2023,
+  "title": "Serious e-scooter casualties: comparing police and hospital data",
+  "container": "Official statistics (GOV.UK)",
+  "volume": "",
+  "issue": "",
+  "pages": "",
+  "article_number": "",
+  "publisher": "Department for Transport, United Kingdom",
+  "doi": "",
+  "url": "https://www.gov.uk/government/statistics/serious-e-scooter-casualties-comparing-police-and-hospital-data",
+  "verified_via": "official page",
+  "verified_on": "2026-11-11",
+  "topic": 4,
+  "summary": "Official statistical release (published 24 May 2023) that links police-reported STATS19 e-scooter casualties with Trauma Audit Research Network trauma-patient data to assess what share of seriously injured, hospitalised e-scooter casualties appear in police records, with pedal cyclists and motorcyclists as comparison groups.",
+  "summary_basis": "abstract",
+  "abstract_source": "official page",
+  "country_data": "Great Britain; police data (STATS19) linked to hospital trauma data (TARN)"
+ },
+ {
+  "key": "guesneau_2024_pmd",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Guesneau",
+    "given": "Marianne"
+   },
+   {
+    "family": "Cherta-Ballester",
+    "given": "Oscar"
+   },
+   {
+    "family": "Agier",
+    "given": "Lydiane"
+   },
+   {
+    "family": "Arnoux",
+    "given": "Pierre-Jean"
+   },
+   {
+    "family": "Wei",
+    "given": "Wei"
+   },
+   {
+    "family": "Vernet",
+    "given": "Céline"
+   },
+   {
+    "family": "Honoré",
+    "given": "Valentin"
+   },
+   {
+    "family": "Bailly",
+    "given": "Nicolas"
+   }
+  ],
+  "year": 2024,
+  "title": "Traffic collisions and micromobility: A comparison between personal mobility devices and bicycles based on police reports",
+  "container": "Journal of Safety Research",
+  "volume": "91",
+  "issue": "",
+  "pages": "156-164",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.jsr.2024.08.012",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Analysis of two-party collisions in the French police-reported crash database for 2019-2022 (16,302 bicycle and 4,118 personal mobility device crashes): 75% were against a car, the side-on-head scenario was the most frequent and most severe, severity rose with a larger opponent vehicle, age above 50 and higher speed limits, and bicycles remained at higher risk of severe injury (hospitalisation or death) than personal mobility devices after adjustment.",
+  "summary_basis": "abstract",
+  "abstract_source": "PubMed",
+  "country_data": "France; police data (national police-reported crash database), 2019-2022"
+ },
+ {
+  "key": "laverdet_2023_epmdpolice",
+  "type": "preprint",
+  "authors": [
+   {
+    "family": "Laverdet",
+    "given": "Clément"
+   },
+   {
+    "family": "Pala",
+    "given": "Prashant"
+   },
+   {
+    "family": "Meyer",
+    "given": "Thierry"
+   },
+   {
+    "family": "Delhomme",
+    "given": "Patricia"
+   }
+  ],
+  "year": 2023,
+  "title": "Crashes involving electric personal mobility devices (ePMD) reported by the French police: types of crashes, users involved, injuries and explanatory factors",
+  "container": "Research Square",
+  "volume": "",
+  "issue": "",
+  "pages": "",
+  "article_number": "",
+  "publisher": "Research Square Platform LLC",
+  "doi": "10.21203/rs.3.rs-2801940/v1",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Descriptive analysis of crashes reported by the French police in 2019-2021: nearly three quarters of electric personal mobility device crashes were collisions with a car, 14% were solo crashes and 9.2% involved a pedestrian, and device users without helmets were younger on average than those with helmets.",
+  "summary_basis": "abstract",
+  "abstract_source": "Crossref",
+  "country_data": "France; police data, 2019-2021"
+ },
+ {
+  "key": "james_2023_traumabase",
+  "type": "article",
+  "authors": [
+   {
+    "family": "James",
+    "given": "Arthur"
+   },
+   {
+    "family": "Harrois",
+    "given": "Anatole"
+   },
+   {
+    "family": "Abback",
+    "given": "Paer-Selim"
+   },
+   {
+    "family": "Moyer",
+    "given": "Jean Denis"
+   },
+   {
+    "family": "Jeantrelle",
+    "given": "Caroline"
+   },
+   {
+    "family": "Hanouz",
+    "given": "Jean-Luc"
+   },
+   {
+    "family": "Boutonnet",
+    "given": "Mathieu"
+   },
+   {
+    "family": "Geeraerts",
+    "given": "Thomas"
+   },
+   {
+    "family": "Godier",
+    "given": "Anne"
+   },
+   {
+    "family": "Pottecher",
+    "given": "Julien"
+   },
+   {
+    "family": "Garrigue-Huet",
+    "given": "Delphine"
+   },
+   {
+    "family": "Cotte",
+    "given": "Jean"
+   },
+   {
+    "family": "Pasqueron",
+    "given": "Jean"
+   },
+   {
+    "family": "Foucrier",
+    "given": "Arnaud"
+   },
+   {
+    "family": "Gauss",
+    "given": "Tobias"
+   },
+   {
+    "family": "Raux",
+    "given": "Mathieu"
+   },
+   {
+    "literal": "French Observatory for Major Trauma (TraumaBase)"
+   },
+   {
+    "family": "Audibert",
+    "given": "Gérard"
+   },
+   {
+    "family": "Bounes",
+    "given": "Fanny"
+   },
+   {
+    "family": "Clavier",
+    "given": "Thomas"
+   },
+   {
+    "family": "Cloche",
+    "given": "Regis"
+   },
+   {
+    "family": "Cohen",
+    "given": "Benjamin"
+   },
+   {
+    "family": "Couturier",
+    "given": "Christophe"
+   },
+   {
+    "family": "Delhaye",
+    "given": "Nathalie"
+   },
+   {
+    "family": "Duranteau",
+    "given": "Jacques"
+   },
+   {
+    "family": "Dussau",
+    "given": "Leslie"
+   },
+   {
+    "family": "Floch",
+    "given": "Thierry"
+   },
+   {
+    "family": "Gatulle",
+    "given": "Nicolas"
+   },
+   {
+    "family": "Gettes",
+    "given": "Sébastien"
+   },
+   {
+    "family": "Gosset",
+    "given": "Pierre"
+   },
+   {
+    "family": "Langeron",
+    "given": "Olivier"
+   },
+   {
+    "family": "Leone",
+    "given": "Marc"
+   },
+   {
+    "family": "Meaudre",
+    "given": "Eric"
+   },
+   {
+    "family": "Moisan",
+    "given": "Marie"
+   },
+   {
+    "family": "Pujo",
+    "given": "Jean"
+   },
+   {
+    "family": "Ramonda",
+    "given": "Véronique"
+   },
+   {
+    "family": "Rotival",
+    "given": "Julie"
+   },
+   {
+    "family": "Werner",
+    "given": "Marie"
+   },
+   {
+    "family": "Willig",
+    "given": "Mathieu"
+   }
+  ],
+  "year": 2023,
+  "title": "Comparison of injuries associated with electric scooters, motorbikes, and bicycles in France, 2019-2022",
+  "container": "JAMA Network Open",
+  "volume": "6",
+  "issue": "6",
+  "pages": "",
+  "article_number": "e2320960",
+  "publisher": "American Medical Association (AMA)",
+  "doi": "10.1001/jamanetworkopen.2023.20960",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "French national major-trauma registry cohort, 2019-2022 (229 e-scooter, 910 bicycle and 4,094 motorbike patients): e-scooter major-trauma admissions rose from 31 in 2019 to 88 in 2022, 36.7% of e-scooter users had blood alcohol above the legal threshold, and injury severity (ISS of 16 or higher in 45.5%) and mortality (9.2%) were similar to those of bicycle crashes.",
+  "summary_basis": "abstract",
+  "abstract_source": "Crossref",
+  "country_data": "France; hospital data (TraumaBase major-trauma registry)"
+ },
+ {
+  "key": "benhamed_2022_rhone",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Benhamed",
+    "given": "Axel"
+   },
+   {
+    "family": "Gossiome",
+    "given": "Amaury"
+   },
+   {
+    "family": "Ndiaye",
+    "given": "Amina"
+   },
+   {
+    "family": "Tazarourte",
+    "given": "Karim"
+   }
+  ],
+  "year": 2022,
+  "title": "Characteristics and comparison between e-scooters and bicycle-related trauma: a multicentre cross-sectional analysis of data from a road collision registry",
+  "container": "BMC Emergency Medicine",
+  "volume": "22",
+  "issue": "1",
+  "pages": "",
+  "article_number": "164",
+  "publisher": "Springer Science and Business Media LLC",
+  "doi": "10.1186/s12873-022-00719-0",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Rhone road collision registry analysis for 2019 (825 e-scooter riders, 1,954 bicyclists): most collisions were falls or loss of control with no third party (74.2% vs 67.7%), e-scooter riders wore helmets less often (6.1% vs 30.7%) and had more head and face injuries, while the median injury severity score was 2 in both groups.",
+  "summary_basis": "abstract",
+  "abstract_source": "Crossref",
+  "country_data": "France (Rhone county); hospital-based road collision registry"
+ },
+ {
+  "key": "kashifi_2023_twowheelers",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Kashifi",
+    "given": "Mohammad Tamim"
+   }
+  ],
+  "year": 2023,
+  "title": "Investigating two-wheelers risk factors for severe crashes using an interpretable machine learning approach and SHAP analysis",
+  "container": "IATSS Research",
+  "volume": "47",
+  "issue": "3",
+  "pages": "357-371",
+  "article_number": "",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.iatssr.2023.07.005",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "XGBoost with SHAP applied to the French crash dataset for two-wheelers, 2014-2017: department of the crash, road category, urbanisation level, two-wheeler category and rider age most influenced severity, with severe injuries more likely in rural areas, for older riders and for riders without helmets.",
+  "summary_basis": "abstract",
+  "abstract_source": "OpenAlex; DOAJ",
+  "country_data": "France; national crash dataset, 2014-2017 (before the personal mobility device codes)"
+ },
+ {
+  "key": "france_2019_decree1082",
+  "type": "legal",
+  "authors": [
+   {
+    "literal": "République française"
+   }
+  ],
+  "year": 2019,
+  "title": "Décret n° 2019-1082 du 23 octobre 2019 relatif à la réglementation des engins de déplacement personnel",
+  "container": "Journal officiel de la République française",
+  "volume": "",
+  "issue": "0249",
+  "pages": "",
+  "article_number": "",
+  "publisher": "Légifrance",
+  "doi": "",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039272656",
+  "verified_via": "official page",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Decree issued on the report of the Minister of the Interior (NOR INTS1913464D; JORF n° 0249 of 25 October 2019, text n° 19) that adds 'engins de déplacement personnel' to the Code de la route as new vehicle categories and sets their technical characteristics and traffic rules.",
+  "summary_basis": "full text",
+  "abstract_source": "official page",
+  "country_data": "France; legal text"
+ },
+ {
+  "key": "france_2023_decree848",
+  "type": "legal",
+  "authors": [
+   {
+    "literal": "République française"
+   }
+  ],
+  "year": 2023,
+  "title": "Décret n° 2023-848 du 31 août 2023 relatif à la réglementation des engins de déplacement personnel motorisés",
+  "container": "Journal officiel de la République française",
+  "volume": "",
+  "issue": "0202",
+  "pages": "",
+  "article_number": "",
+  "publisher": "Légifrance",
+  "doi": "",
+  "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048034155",
+  "verified_via": "official page",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Decree (NOR IOMS2313724D; JORF n° 0202 of 1 September 2023, text n° 4), in force from 1 September 2023, that raises the minimum age for riding motorised personal mobility devices from 12 to 14 and makes carrying passengers and riding on prohibited roads a fourth-class offence.",
+  "summary_basis": "full text",
+  "abstract_source": "official page",
+  "country_data": "France; legal text"
+ },
+ {
+  "key": "onisr_2025_bilan2024",
+  "type": "report",
+  "authors": [
+   {
+    "literal": "Observatoire national interministériel de la sécurité routière (ONISR)"
+   }
+  ],
+  "year": 2025,
+  "title": "La sécurité routière en France : bilan de l'accidentalité de l'année 2024",
+  "container": "",
+  "volume": "",
+  "issue": "",
+  "pages": "",
+  "article_number": "",
+  "publisher": "Direction de l'information légale et administrative, Paris (ISBN 978-2-11-174300-7)",
+  "doi": "",
+  "url": "https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2025-09/Bilan%20SR%202024%20version%20site%20internet%2012%20septembre.pdf",
+  "verified_via": "official page",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Official annual report on road crashes in France for 2024 (dated September 2025). Its front matter defines the BAAC police file and its victim categories, and states that ONISR and Université Gustave Eiffel estimate injury numbers to compensate for under-recording of crashes by the police and to grade severity on the AIS scale (MAIS 3+ for serious injuries).",
+  "summary_basis": "full text",
+  "abstract_source": "official page",
+  "country_data": "France; official statistics based on police data (BAAC). Only the cover and front matter (pages 1-4) were read."
+ },
+ {
+  "key": "minint_2026_baac",
+  "type": "dataset",
+  "authors": [
+   {
+    "literal": "Ministère de l'Intérieur"
+   }
+  ],
+  "year": 2026,
+  "title": "Bases de données annuelles des accidents corporels de la circulation routière - Années de 2005 à 2025",
+  "container": "data.gouv.fr",
+  "volume": "",
+  "issue": "",
+  "pages": "",
+  "article_number": "",
+  "publisher": "Ministère de l'Intérieur; Observatoire national interministériel de la sécurité routière (ONISR)",
+  "doi": "",
+  "url": "https://www.data.gouv.fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2025",
+  "verified_via": "official page",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "Open annual extracts of the national BAAC file administered by ONISR (four CSV files per year: characteristics, locations, vehicles, users). The dataset page warns that data on 'hospitalised injured' from 2018 onwards cannot be compared with earlier years because police data-entry processes changed, and that this indicator has not been certified by the official statistics authority since 2019.",
+  "summary_basis": "full text",
+  "abstract_source": "official page",
+  "country_data": "France; police data (BAAC), open data. Page last modified 30 October 2026."
+ },
+ {
+  "key": "paris_2023_trottinettes",
+  "type": "web",
+  "authors": [
+   {
+    "literal": "Ville de Paris"
+   }
+  ],
+  "year": 2023,
+  "title": "Fin des trottinettes en libre-service à Paris le 31 août 2023",
+  "container": "paris.fr",
+  "volume": "",
+  "issue": "",
+  "pages": "",
+  "article_number": "",
+  "publisher": "Ville de Paris",
+  "doi": "",
+  "url": "https://www.paris.fr/pages/pour-ou-contre-les-trottinettes-en-libre-service-23231",
+  "verified_via": "official page",
+  "verified_on": "2026-11-11",
+  "topic": 5,
+  "summary": "City of Paris page (updated 3 April 2023) reporting the consultative vote of 2 April 2023, in which 103,084 Parisians voted and 89.03% chose to end self-service e-scooters, and stating that the public-domain agreement with the three operators (Dott, Lime, Tier Mobility) ends on 31 August 2023.",
+  "summary_basis": "full text",
+  "abstract_source": "official page",
+  "country_data": "France (Paris); official city page"
+ },
+ {
+  "key": "pakarinen_2023_helsinki",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Pakarinen",
+    "given": "Oskari"
+   },
+   {
+    "family": "Kobylin",
+    "given": "Arja"
+   },
+   {
+    "family": "Harjola",
+    "given": "Veli-Pekka"
+   },
+   {
+    "family": "Castrén",
+    "given": "Maaret"
+   },
+   {
+    "family": "Vasara",
+    "given": "Henri"
+   }
+  ],
+  "year": 2023,
+  "title": "Speed and nighttime usage restrictions and the incidence of shared electric scooter injuries",
+  "container": "JAMA Network Open",
+  "volume": "6",
+  "issue": "11",
+  "pages": "",
+  "article_number": "e2341194",
+  "publisher": "American Medical Association (AMA)",
+  "doi": "10.1001/jamanetworkopen.2023.41194",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 6,
+  "summary": "Helsinki hospital cohort comparing January-August 2021 (unrestricted) with January-August 2022 (lower top speeds and a weekend night-time ban on shared e-scooters): injuries needing hospital care fell from 528 to 318 and incidence from 19 to 9 per 100,000 rides (adjusted odds ratio 0.5).",
+  "summary_basis": "abstract",
+  "abstract_source": "Crossref",
+  "country_data": "Finland (Helsinki); hospital data with operator trip counts"
+ },
+ {
+  "key": "liukkonen_2023_tampere",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Liukkonen",
+    "given": "Rasmus"
+   },
+   {
+    "family": "Aarnikko",
+    "given": "Heljä"
+   },
+   {
+    "family": "Stenman",
+    "given": "Pekka"
+   },
+   {
+    "family": "Ovaska",
+    "given": "Sanna"
+   },
+   {
+    "family": "Reito",
+    "given": "Aleksi"
+   }
+  ],
+  "year": 2023,
+  "title": "Association of nighttime speed limits and electric scooter-related injuries",
+  "container": "JAMA Network Open",
+  "volume": "6",
+  "issue": "6",
+  "pages": "",
+  "article_number": "e2320868",
+  "publisher": "American Medical Association (AMA)",
+  "doi": "10.1001/jamanetworkopen.2023.20868",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 6,
+  "summary": "Tampere University Hospital cohort (April 2019 to September 2022): a night-time (12 am to 6 am) speed limit of 15 km/h on e-scooters in 2022 was not associated with reduced injury incidence (17.75 and 17.34 injuries per 100,000 rides in the summers of 2021 and 2022).",
+  "summary_basis": "full text",
+  "abstract_source": "PubMed Central full text (PMC10311383)",
+  "country_data": "Finland (Tampere); hospital emergency-department data with ride counts"
+ },
+ {
+  "key": "cloud_2023_sharedescooter",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Cloud",
+    "given": "Cannon"
+   },
+   {
+    "family": "Heß",
+    "given": "Simon"
+   },
+   {
+    "family": "Kasinger",
+    "given": "Johannes"
+   }
+  ],
+  "year": 2023,
+  "title": "Shared e-scooter services and road safety: Evidence from six European countries",
+  "container": "European Economic Review",
+  "volume": "160",
+  "issue": "",
+  "pages": "",
+  "article_number": "104593",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.euroecorev.2023.104593",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 6,
+  "summary": "Causal analysis exploiting the staggered rollout of shared e-scooter services across 93 cities in six European countries: police-reported accidents in the average month rose by around 8.2% after introduction, with the largest effects in cities with limited cycling infrastructure and no detectable effect in cities with high bike-lane density.",
+  "summary_basis": "abstract",
+  "abstract_source": "OpenAlex; arXiv:2209.06870 (author version)",
+  "country_data": "93 cities in six European countries; police-reported accidents"
+ },
+ {
+  "key": "briotti_2026_perth",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Briotti",
+    "given": "Joshua"
+   },
+   {
+    "family": "Raubenheimer",
+    "given": "Kyle"
+   },
+   {
+    "family": "Sikora",
+    "given": "Lola"
+   },
+   {
+    "family": "Ma",
+    "given": "Liya"
+   },
+   {
+    "family": "Chung",
+    "given": "I‐Chieh"
+   },
+   {
+    "family": "Weber",
+    "given": "Dieter G."
+   }
+  ],
+  "year": 2026,
+  "title": "Impact of banning a rideshare e-scooter programme on emergency department presentations in Perth: a natural experiment",
+  "container": "ANZ Journal of Surgery",
+  "volume": "96",
+  "issue": "6",
+  "pages": "1605-1611",
+  "article_number": "",
+  "publisher": "Wiley",
+  "doi": "10.1111/ans.70689",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 6,
+  "summary": "Royal Perth Hospital emergency-department study of the suspension of rideshare e-scooters on 5 June 2025: e-scooter presentations fell from 105 in the 12 weeks before to 39 in the 12 weeks after (incidence rate ratio 2.69), against a 2024 comparison window.",
+  "summary_basis": "abstract",
+  "abstract_source": "Crossref",
+  "country_data": "Australia (Perth); hospital emergency-department data"
+ },
+ {
+  "key": "toofany_2021_scoping",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Toofany",
+    "given": "Manish"
+   },
+   {
+    "family": "Mohsenian",
+    "given": "Sasha"
+   },
+   {
+    "family": "Shum",
+    "given": "Leona K"
+   },
+   {
+    "family": "Chan",
+    "given": "Herbert"
+   },
+   {
+    "family": "Brubacher",
+    "given": "Jeffrey R"
+   }
+  ],
+  "year": 2021,
+  "title": "Injury patterns and circumstances associated with electric scooter collisions: a scoping review",
+  "container": "Injury Prevention",
+  "volume": "27",
+  "issue": "5",
+  "pages": "490-499",
+  "article_number": "",
+  "publisher": "BMJ",
+  "doi": "10.1136/injuryprev-2020-044085",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 7,
+  "summary": "Scoping review of 28 peer-reviewed studies and nine grey-literature records (2010-2020): the head and the upper and lower extremities are most often injured, most reported injuries were minor, helmet use was low, and injury circumstances and severity were inconsistently reported.",
+  "summary_basis": "abstract",
+  "abstract_source": "Crossref",
+  "country_data": "International; review"
+ },
+ {
+  "key": "kazemzadeh_2023_review",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Kazemzadeh",
+    "given": "Khashayar"
+   },
+   {
+    "family": "Haghani",
+    "given": "Milad"
+   },
+   {
+    "family": "Sprei",
+    "given": "Frances"
+   }
+  ],
+  "year": 2023,
+  "title": "Electric scooter safety: An integrative review of evidence from transport and medical research domains",
+  "container": "Sustainable Cities and Society",
+  "volume": "89",
+  "issue": "",
+  "pages": "",
+  "article_number": "104313",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.scs.2022.104313",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 7,
+  "summary": "Systematic review of peer-reviewed e-scooter safety papers from transport and medical research: head and face injuries are the most common injury types, interactions between e-scooters and other road users need analysis, and regulations are not uniform.",
+  "summary_basis": "abstract",
+  "abstract_source": "Semantic Scholar",
+  "country_data": "International; review"
+ },
+ {
+  "key": "ghanbari_2026_ebikereview",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Ghanbari",
+    "given": "Amir"
+   },
+   {
+    "family": "Agrawal",
+    "given": "Asha Weinstein"
+   },
+   {
+    "family": "Fang",
+    "given": "Kevin"
+   }
+  ],
+  "year": 2026,
+  "title": "Is panic over e-bike safety justified? A review of the literature and comparative analysis with conventional bicycles and e-scooters",
+  "container": "Transportation Research Interdisciplinary Perspectives",
+  "volume": "38",
+  "issue": "",
+  "pages": "",
+  "article_number": "102049",
+  "publisher": "Elsevier BV",
+  "doi": "10.1016/j.trip.2026.102049",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 7,
+  "summary": "Review of 197 English-language e-bike safety studies (2009 to June 2024): among comparative studies, e-bike riders who needed medical attention more often sustained severe injuries than conventional cyclists, while comparisons between e-bikes and e-scooters gave mixed findings on both crash incidence and injury severity.",
+  "summary_basis": "abstract",
+  "abstract_source": "OpenAlex; DOAJ",
+  "country_data": "International; review"
+ },
+ {
+  "key": "kackenmester_2026_metaanalysis",
+  "type": "article",
+  "authors": [
+   {
+    "family": "Käckenmester",
+    "given": "Wiebke"
+   },
+   {
+    "family": "Hönning",
+    "given": "Alexander"
+   },
+   {
+    "family": "Voß",
+    "given": "Heinrich Bernhard Herman"
+   },
+   {
+    "family": "Prahm",
+    "given": "Cosima"
+   },
+   {
+    "family": "Osterhoff",
+    "given": "Georg"
+   },
+   {
+    "family": "Seifert",
+    "given": "Julia"
+   }
+  ],
+  "year": 2026,
+  "title": "E-scooter-associated injury types and injury severity: a systematic review and meta-analysis",
+  "container": "Journal of Clinical Medicine",
+  "volume": "15",
+  "issue": "6",
+  "pages": "",
+  "article_number": "2154",
+  "publisher": "MDPI AG",
+  "doi": "10.3390/jcm15062154",
+  "url": "",
+  "verified_via": "crossref",
+  "verified_on": "2026-11-11",
+  "topic": 7,
+  "summary": "Systematic review and meta-analysis of emergency-department studies of e-scooter injuries published July 2019 to July 2024 (149 included, 68 pooled): head and face injuries had a pooled frequency of 42.1%, and 2.8% of patients were severely injured (ISS of 16 or higher).",
+  "summary_basis": "abstract",
+  "abstract_source": "Crossref",
+  "country_data": "International; review of hospital emergency-department studies"
+ }
+]

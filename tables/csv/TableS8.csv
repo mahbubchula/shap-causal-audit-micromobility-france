@@ -1,0 +1,31 @@
+﻿ID,Contrast,Grouping variable,Group,n,Effect (pp),SE (pp),Joint 95% CI,"p, equality across groups"
+A1,E-scooter vs. bicycle,Age,under 25,"12,587",+2.7,0.90,0.6 to 4.9,0.161
+A1,E-scooter vs. bicycle,Age,65+,"4,754",−3.1,3.15,−10.6 to 4.4,0.161
+A1,E-scooter vs. bicycle,Age,25–64,"25,048",+2.8,0.83,0.9 to 4.8,0.161
+A1,E-scooter vs. bicycle,Sex,male,"32,335",+3.1,0.69,1.5 to 4.6,0.003
+A1,E-scooter vs. bicycle,Sex,female,"10,122",−0.9,1.21,−3.6 to 1.8,0.003
+A1,E-scooter vs. bicycle,Setting,urban,"37,149",+1.3,0.57,−0.0 to 2.6,0.023
+A1,E-scooter vs. bicycle,Setting,non-urban,"5,845",+7.4,2.57,1.6 to 13.1,0.023
+A1,E-scooter vs. bicycle,Opponent,motor-vehicle opponent,"31,858",+0.9,0.66,−0.6 to 2.4,0.004
+A1,E-scooter vs. bicycle,Opponent,no motor-vehicle opponent,"11,136",+5.6,1.60,2.0 to 9.2,0.004
+B1,Speed limit ≤30 vs. 50 km/h (urban),Mode,bicycle,"23,685",−2.5,1.03,−5.0 to −0.1,0.509
+B1,Speed limit ≤30 vs. 50 km/h (urban),Mode,escooter,"12,050",−1.2,0.83,−3.2 to 0.8,0.509
+B1,Speed limit ≤30 vs. 50 km/h (urban),Mode,ebike,"3,314",−1.4,1.77,−5.6 to 2.9,0.509
+B1,Speed limit ≤30 vs. 50 km/h (urban),Age,under 25,"11,797",−1.9,0.88,−4.0 to 0.3,0.198
+B1,Speed limit ≤30 vs. 50 km/h (urban),Age,65+,"3,302",−6.0,2.36,−11.7 to −0.3,0.198
+B1,Speed limit ≤30 vs. 50 km/h (urban),Age,25–64,"23,347",−1.6,0.84,−3.6 to 0.4,0.198
+B1,Speed limit ≤30 vs. 50 km/h (urban),Sex,male,"28,234",−2.8,0.67,−4.3 to −1.3,0.007
+B1,Speed limit ≤30 vs. 50 km/h (urban),Sex,female,"10,283",−0.0,1.15,−2.6 to 2.6,0.007
+B1,Speed limit ≤30 vs. 50 km/h (urban),Opponent,motor-vehicle opponent,"28,947",−2.2,0.79,−3.9 to −0.4,0.621
+B1,Speed limit ≤30 vs. 50 km/h (urban),Opponent,no motor-vehicle opponent,"10,102",−1.6,0.95,−3.8 to 0.5,0.621
+B2,Night without vs. with working street lighting,Mode,bicycle,"4,538",+4.5,4.60,−6.5 to 15.5,0.419
+B2,Night without vs. with working street lighting,Mode,escooter,"3,257",−1.3,4.33,−11.7 to 9.0,0.419
+B2,Night without vs. with working street lighting,Mode,ebike,717,−3.9,8.23,−23.6 to 15.8,0.419
+B2,Night without vs. with working street lighting,Age,25–64,"5,392",+2.4,4.18,−6.9 to 11.8,0.921
+B2,Night without vs. with working street lighting,Age,under 25,"2,776",+1.9,4.93,−9.1 to 13.0,0.921
+B2,Night without vs. with working street lighting,Sex,male,"6,616",+1.2,3.57,−6.9 to 9.2,0.704
+B2,Night without vs. with working street lighting,Sex,female,"1,767",+3.8,7.17,−12.3 to 19.9,0.704
+B2,Night without vs. with working street lighting,Setting,urban,"7,918",−0.1,3.30,−7.5 to 7.3,0.019
+B2,Night without vs. with working street lighting,Setting,non-urban,594,+23.9,9.91,1.7 to 46.1,0.019
+B2,Night without vs. with working street lighting,Opponent,motor-vehicle opponent,"6,168",+1.4,3.81,−7.2 to 9.9,0.872
+B2,Night without vs. with working street lighting,Opponent,no motor-vehicle opponent,"2,344",+2.0,4.26,−7.5 to 11.6,0.872

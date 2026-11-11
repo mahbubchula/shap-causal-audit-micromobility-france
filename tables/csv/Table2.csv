@@ -1,0 +1,13 @@
+﻿Partition,Mode,Riders,Crashes,"Killed or hospitalized, n (%)","Killed, n (%)"
+"Development set, 2020–2023",Bicycle,"20,276","19,410","5,560 (27.4)",756 (3.7)
+"Development set, 2020–2023",E-bike,"2,230","2,198",612 (27.4),112 (5.0)
+"Development set, 2020–2023",E-scooter,"6,702","6,654","1,118 (16.7)",106 (1.6)
+"Development set, 2020–2023",All riders,"29,208","27,917","7,290 (25.0)",974 (3.3)
+"Locked test set, 2024–2025",Bicycle,"9,764","9,328","2,728 (27.9)",396 (4.1)
+"Locked test set, 2024–2025",E-bike,"1,696","1,661",442 (26.1),62 (3.7)
+"Locked test set, 2024–2025",E-scooter,"6,252","6,190","1,287 (20.6)",123 (2.0)
+"Locked test set, 2024–2025",All riders,"17,712","16,900","4,457 (25.2)",581 (3.3)
+"Sensitivity analysis, 2019",Bicycle,"4,727","4,578","1,367 (28.9)",172 (3.6)
+"Sensitivity analysis, 2019",E-bike,248,246,92 (37.1),15 (6.0)
+"Sensitivity analysis, 2019",E-scooter,615,611,95 (15.4),10 (1.6)
+"Sensitivity analysis, 2019",All riders,"5,590","5,404","1,554 (27.8)",197 (3.5)
